@@ -1,0 +1,30 @@
+title: "Emocre - Emotion Creatures"
+description: "Dome todas as emoções neste incrível jogo de monster tamer!"
+baseurl: ""
+url: "https://emocre.com"
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+# SEO
+lang: pt-BR
+author: "Emocre Team"
+
+# Social
+social:
+  name: Emocre
+  links:
+    - https://emocre.com
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
