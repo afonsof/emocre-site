@@ -19,6 +19,10 @@ social:
   links:
     - https://emocre.com
 
+sass:
+  sass_dir: _sass
+  style: compressed # ou expanded
+
 # Exclude from processing
 exclude:
   - Gemfile
