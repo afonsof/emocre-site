@@ -35,21 +35,21 @@ body {
   justify-content: center;
   align-items: start;
   transform-origin: top;
-  //@media (max-height: 800px) {
-  //  transform: scale(0.8);
-  //}
-  //@media (max-height: 600px) {
-  //  transform: scale(0.6);
-  //}
-  //@media (max-height: 500px) {
-  //  transform: scale(0.5);
-  //}
-  //@media (min-height: 1200px) {
-  //  transform: scale(1.2);
-  //}
-  //@media (min-height: 1400px) {
-  //  transform: scale(1.4);
-  //}
+  @media (max-height: 800px) {
+    transform: scale(0.8);
+  }
+  @media (max-height: 600px) {
+    transform: scale(0.6);
+  }
+  @media (max-height: 500px) {
+    transform: scale(0.5);
+  }
+  @media (min-height: 1200px) {
+    transform: scale(1.2);
+  }
+  @media (min-height: 1400px) {
+    transform: scale(1.4);
+  }
 }
 
 .container {
@@ -123,15 +123,16 @@ body {
   display: flex;
   flex-direction: row;
   gap: 20px;
-  width: 600px;
+  width: 950px;
   margin-bottom: 100px;
+  flex-wrap: wrap;
 }
 
 .creature-box {
   background: rgba(255, 255, 255, 0.8);
   border-radius: 20px;
   padding: 20px;
-  width: 300px;
+  width: 303px;
 }
 
 .hero {
@@ -174,6 +175,7 @@ body {
   width: 120px;
   height: 120px;
   animation: bounce 2s ease-in-out infinite;
+  margin-top: 20px;
 }
 
 @keyframes bounce {
