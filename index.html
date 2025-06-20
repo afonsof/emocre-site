@@ -5,6 +5,8 @@ description: "Emocre é um jogo de monster tamer onde você precisa domar todas 
 emocionais e embarque nesta aventura única!"
 ---
 
+{% assign creatures = site.data.creatures %}
+
 <section class="hero">
   <div class="container">
     <div class="hero-content">
@@ -21,147 +23,31 @@ emocionais e embarque nesta aventura única!"
       <h2 class="title">Meet the creatures</h2>
 
       <div class="boxes">
-
+        {% for creature in creatures %}
         <div class="creature-box">
-          <h3 class="creature-name">Boreloth</h3>
+          <h3 class="creature-name">#{{creature.number}} {{ creature.name }}</h3>
           <div class="creature-types">
-            <h4>Main emotion: Boredom</h4>
+            <h4>Main emotion: {{ creature.emotion | capitalize }}</h4>
           </div>
           <div class="creature-types">
             <h4>Type:</h4>
             <div>
-              <span class="creature-type disgust">Disgust</span>
+              <span class="creature-type {{ creature.type1 | downcase }}">
+                {{ creature.type1 }}
+              </span>
+              {% if creature.type2 %}
+              <span class="creature-type {{ creature.type2 | downcase }}">
+                {{ creature.type2 }}
+              </span>
+              {% endif %}
             </div>
           </div>
           <div class="creatures-showcase">
-            <img class="creature" src="{{ '/assets/creatures/boreloth.png' | relative_url }}"
+            <img class="creature" src="{{ '/assets/creatures/' | append: creature.emotion  | append: '-' | append: creature.stage | append: '-art-front.png' | relative_url }}"
                  style="width: 100%; height: auto;">
           </div>
         </div>
-
-        <div class="creature-box">
-          <h3 class="creature-name">Garranca</h3>
-          <div class="creature-types">
-            <h4>Main emotion: Aggressiveness</h4>
-          </div>
-          <div class="creature-types">
-            <h4>Type:</h4>
-            <div>
-              <span class="creature-type anticipation">Anticipation</span>
-              <span class="creature-type anger">Anger</span>
-            </div>
-          </div>
-          <div class="creatures-showcase">
-            <img class="creature" src="{{ '/assets/creatures/garranca.png' | relative_url }}"
-                 style="width: 100%; height: auto;">
-          </div>
-        </div>
-
-        <div class="creature-box">
-          <h3 class="creature-name">Remorcego</h3>
-          <div class="creature-types">
-            <h4>Main emotion: Remorse</h4>
-          </div>
-          <div class="creature-types">
-            <h4>Type:</h4>
-            <div>
-              <span class="creature-type disgust">Disgust</span>
-              <span class="creature-type sadness">Sadness</span>
-            </div>
-          </div>
-          <div class="creatures-showcase">
-            <img class="creature" src="{{ '/assets/creatures/remorse-1-art-front.png' | relative_url }}"
-                 style="width: 100%; height: auto;">
-          </div>
-        </div>
-
-        <div class="creature-box">
-          <h3 class="creature-name">Mandirá</h3>
-          <div class="creature-types">
-            <h4>Main emotion: Remorse</h4>
-          </div>
-          <div class="creature-types">
-            <h4>Type:</h4>
-            <div>
-              <span class="creature-type disgust">Disgust</span>
-              <span class="creature-type sadness">Sadness</span>
-            </div>
-          </div>
-          <div class="creatures-showcase">
-            <img class="creature" src="{{ '/assets/creatures/remorse-2-art-front.png' | relative_url }}"
-                 style="width: 100%; height: auto;">
-          </div>
-        </div>
-
-        <div class="creature-box">
-          <h3 class="creature-name">Capinguari</h3>
-          <div class="creature-types">
-            <h4>Main emotion: Distraction</h4>
-          </div>
-          <div class="creature-types">
-            <h4>Type:</h4>
-            <div>
-              <span class="creature-type surprise">Surprise</span>
-            </div>
-          </div>
-          <div class="creatures-showcase">
-            <img class="creature" src="{{ '/assets/creatures/distraction-2-art-front.png' | relative_url }}"
-                 style="width: 100%; height: auto;">
-          </div>
-        </div>
-        <div class="creature-box">
-          <h3 class="creature-name">Zuretra</h3>
-          <div class="creature-types">
-            <h4>Main emotion: Confusion</h4>
-          </div>
-          <div class="creature-types">
-            <h4>Type:</h4>
-            <div>
-              <span class="creature-type anticipation">Antecipation</span>
-              <span class="creature-type surprise">Surprise</span>
-            </div>
-          </div>
-          <div class="creatures-showcase">
-            <img class="creature" src="{{ '/assets/creatures/confusion-1-art-front.png' | relative_url }}"
-                 style="width: 100%; height: auto;">
-          </div>
-        </div>
-
-        <div class="creature-box">
-          <h3 class="creature-name">Rivosquito</h3>
-          <div class="creature-types">
-            <h4>Main emotion: Anxiety</h4>
-          </div>
-          <div class="creature-types">
-            <h4>Type:</h4>
-            <div>
-              <span class="creature-type fear">Fear</span>
-              <span class="creature-type anticipation">Anticipation</span>
-            </div>
-          </div>
-          <div class="creatures-showcase">
-            <img class="creature" src="{{ '/assets/creatures/anxiety-1-art-front.png' | relative_url }}"
-                 style="width: 100%; height: auto;">
-          </div>
-        </div>
-
-        <div class="creature-box">
-          <h3 class="creature-name">Gesperate</h3>
-          <div class="creature-types">
-            <h4>Main emotion: Despair</h4>
-          </div>
-          <div class="creature-types">
-            <h4>Type:</h4>
-            <div>
-              <span class="creature-type fear">Fear</span>
-              <span class="creature-type sadness">Sadness</span>
-            </div>
-          </div>
-          <div class="creatures-showcase">
-            <img class="creature" src="{{ '/assets/creatures/despair1-art-front.png' | relative_url }}"
-                 style="width: 100%; height: auto;">
-          </div>
-        </div>
+        {% endfor %}
       </div>
 
 

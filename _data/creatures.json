@@ -1,0 +1,98 @@
+[
+  {
+    "number": "1",
+    "name": "Alegrino",
+    "type1": "joy",
+    "type2": null,
+    "emotion": "joy",
+    "stage": 1
+  },
+  {
+    "number": "2",
+    "name": "Alegrã",
+    "type1": "joy",
+    "type2": null,
+    "emotion": "joy",
+    "stage": 2
+  },
+  {
+    "number": "3",
+    "name": "Coaxtase",
+    "type1": "joy",
+    "type2": null,
+    "emotion": "joy",
+    "stage": 3
+  },
+  {
+    "number": "33",
+    "name": "",
+    "type1": "disgust",
+    "type2": null,
+    "emotion": "boredom",
+    "stage": 1
+  },
+  {
+    "number": "37",
+    "name": "Bobicó",
+    "type1": "surprise",
+    "type2": null,
+    "emotion": "distraction",
+    "stage": 1
+  },
+  {
+    "number": "38",
+    "name": "Capinguari",
+    "type1": "surprise",
+    "type2": null,
+    "emotion": "distraction",
+    "stage": 2
+  },
+  {
+    "number": "67",
+    "name": "Rivosquito",
+    "type1": "anticipation",
+    "type2": "fear",
+    "emotion": "anxiety",
+    "stage": 1
+  },
+  {
+    "number": "72",
+    "name": "Garranca",
+    "type1": "anticipation",
+    "type2": "anger",
+    "emotion": "aggressiveness",
+    "stage": 2
+  },
+  {
+    "number": "73",
+    "name": "Sasifufu",
+    "type1": "anticipation",
+    "type2": "surprise",
+    "emotion": "confusion",
+    "stage": 1
+  },
+  {
+    "number": "84",
+    "name": "Gesperate",
+    "type1": "fear",
+    "type2": "sadness",
+    "emotion": "despair",
+    "stage": 2
+  },
+  {
+    "number": "89",
+    "name": "Remorcego",
+    "type1": "disgust",
+    "type2": "sadness",
+    "emotion": "remorse",
+    "stage": 1
+  },
+  {
+    "number": "90",
+    "name": "Mandirá",
+    "type1": "disgust",
+    "type2": "sadness",
+    "emotion": "remorse",
+    "stage": 2
+  }
+]

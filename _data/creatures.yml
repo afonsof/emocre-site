@@ -1,0 +1,63 @@
+- creature:
+  name: "Alegrino"
+  emotion: "joy"
+  type1: "joy"
+  stage: 1
+- creature:
+  name: "Alegrã"
+  emotion: "joy"
+  type1: "joy"
+  stage: 2
+- creature:
+  name: "Coaxtase"
+  emotion: "joy"
+  type1: "joy"
+  stage: 3
+- creature:
+  name: "Boreloth"
+  emotion: "boredom"
+  type1: "disgust"
+  stage: 1
+- creature:
+  name: "Garranca"
+  emotion: "aggressiveness"
+  type1: "anticipation"
+  type2: "anger"
+  stage: 2
+- creature:
+  name: "Remorcego"
+  emotion: "remorse"
+  type1: "disgust"
+  type2: "sadness"
+  stage: 1
+- creature:
+  name: "Mandirá"
+  emotion: "remorse"
+  type1: "disgust"
+  type2: "sadness"
+  stage: 2
+- creature:
+  name: "Capinguari"
+  emotion: "distraction"
+  type1: "surprise"
+  stage: 2
+- creature:
+  name: "Zuretra"
+  emotion: "confusion"
+  type1: "anticipation"
+  type2: "surprise"
+  stage: 1
+- creature:
+  name: "Rivosquito"
+  emotion: "anxiety"
+  type1: "fear"
+  type2: "anticipation"
+  stage: 1
+- creature:
+  name: "Gesperate"
+  emotion: "despair"
+  type1: "fear"
+  type2: "sadness"
+  stage: 2
+
+
