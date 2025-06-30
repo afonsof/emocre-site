@@ -24,6 +24,22 @@
     "stage": 3
   },
   {
+    "number": "6",
+    "name": "",
+    "type1": "anger",
+    "type2": null,
+    "emotion": "anger",
+    "stage": 3
+  },
+  {
+    "number": "9",
+    "name": "",
+    "type1": "sadness",
+    "type2": null,
+    "emotion": "sadness",
+    "stage": 3
+  },
+  {
     "number": "33",
     "name": "",
     "type1": "disgust",
