@@ -24,24 +24,24 @@
     "stage": 3
   },
   {
-    "number": "6",
-    "name": "",
-    "type1": "anger",
-    "type2": null,
-    "emotion": "anger",
-    "stage": 3
-  },
-  {
     "number": "9",
-    "name": "",
+    "name": "Tristón",
     "type1": "sadness",
     "type2": null,
     "emotion": "sadness",
     "stage": 3
   },
   {
+    "number": "31",
+    "name": "Kittensão",
+    "type1": "fear",
+    "type2": null,
+    "emotion": "apprehension",
+    "stage": 1
+  },
+  {
     "number": "33",
-    "name": "",
+    "name": "Boreloth",
     "type1": "disgust",
     "type2": null,
     "emotion": "boredom",
@@ -110,5 +110,13 @@
     "type2": "sadness",
     "emotion": "remorse",
     "stage": 2
+  },
+  {
+    "number": "91",
+    "name": "Mibolado",
+    "type1": "anger",
+    "type2": "surprise",
+    "emotion": "indignation",
+    "stage": 1
   }
 ]
