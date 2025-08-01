@@ -1,17 +1,81 @@
-<style>
-    #canvas {
-        position: fixed;
-        inset: 0;
-        width: 100%;
-        height: 100%;
-        background-color: black;
-    }
-</style>
+---
+layout: default
+title: "Dome Todas as Emoções"
+description: "Emocre é um jogo de captura de criaturas onde você precisa domar todas as emoções. Conheça as criaturas
+emocionais e embarque nesta aventura única!"
+---
+
+<section class="hero">
+  <div class="container">
+    <div class="hero-content">
+      <h1 class="hero-title">
+        <a href="/" class="title-main">
+          <img
+              src="{{ '/assets/logo.png' | relative_url }}"
+              style="width: 400px; height: auto;"
+              alt="Emocre - Emotion Creatures" class="logo-img"
+          />
+        </a>
+      </h1>
+    </div>
+
+    <h2 class="title button" style="cursor: pointer">JOGAR!&nbsp;&nbsp;&nbsp;(apenas PC)</h2>
+
+    <div class="creature-box" style="width: 100%;">
+      <div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
+        <img
+            src="{{ '/assets/screen1.png' | relative_url }}"
+            style="width: 200px; height: auto;"
+        />
+        <img
+            src="{{ '/assets/screen3.png' | relative_url }}"
+            style="width: 200px; height: auto;"
+
+        />
+        <img
+            src="{{ '/assets/screen2.png' | relative_url }}"
+            style="width: 200px; height: auto;"
+        />
+      </div>
+
+      <br>
+
+
+      Esta&nbsp;&nbsp;&nbsp;é uma&nbsp;&nbsp;&nbsp;tech&nbsp;&nbsp;&nbsp;demo&nbsp;&nbsp;&nbsp;jogável&nbsp;&nbsp;&nbsp;de&nbsp;&nbsp;&nbsp;Emocre,
+      um&nbsp;&nbsp;&nbsp;projeto&nbsp;&nbsp;&nbsp;para&nbsp;&nbsp;&nbsp;MEGADRIVE&nbsp;&nbsp;&nbsp;em&nbsp;&nbsp;&nbsp;desenvolvimento.<br>
+      Tudo&nbsp;&nbsp;&nbsp;o&nbsp;&nbsp;&nbsp;que&nbsp;&nbsp;&nbsp;você vê aqui: visuais, mecânicas, balanceamento&nbsp;&nbsp;&nbsp;e&nbsp;&nbsp;&nbsp;até
+      a&nbsp;&nbsp;&nbsp;interface&nbsp;&nbsp;&nbsp;irão&nbsp;&nbsp;&nbsp;mudar&nbsp;&nbsp;&nbsp;até a&nbsp;&nbsp;&nbsp;versão&nbsp;&nbsp;&nbsp;final.<br>
+      O&nbsp;&nbsp;&nbsp;objetivo&nbsp;&nbsp;&nbsp;desta&nbsp;&nbsp;&nbsp;demo&nbsp;&nbsp;&nbsp;é testar&nbsp;&nbsp;&nbsp;ideias&nbsp;&nbsp;&nbsp;e&nbsp;&nbsp;&nbsp;mostrar&nbsp;&nbsp;&nbsp;um&nbsp;&nbsp;&nbsp;pouco&nbsp;&nbsp;&nbsp;do&nbsp;&nbsp;&nbsp;conceito&nbsp;&nbsp;&nbsp;do&nbsp;&nbsp;&nbsp;jogo,
+      não&nbsp;&nbsp;&nbsp;representar&nbsp;&nbsp;&nbsp;o&nbsp;&nbsp;&nbsp;produto&nbsp;&nbsp;&nbsp;final.<br>
+      <br>
+      <h1>Comandos</h1>
+
+      Mundo<br>
+      ← e&nbsp;&nbsp;&nbsp;→: Mover<br>
+      C&nbsp;&nbsp;&nbsp;(X&nbsp;&nbsp;&nbsp;no&nbsp;&nbsp;&nbsp;teclado): pular<br>
+
+      Batalha<br>
+      ← → ↑ ↓: Mover&nbsp;&nbsp;&nbsp;cursor<br>
+      C&nbsp;&nbsp;&nbsp;(X&nbsp;&nbsp;&nbsp;no&nbsp;&nbsp;&nbsp;teclado): Confirmar<br>
+      B&nbsp;&nbsp;&nbsp;(Z&nbsp;&nbsp;&nbsp;no&nbsp;&nbsp;&nbsp;teclado): Voltar<br>
+    </div>
+
+    <h2 class="title button" style="cursor: pointer">JOGAR!&nbsp;&nbsp;&nbsp;(apenas PC)</h2>
+  </div>
+</section>
 
 <script src="https://unpkg.com/nostalgist"></script>
 
 <script>
-  (async () => {
-    await Nostalgist.megadrive('https://emocre.com/assets/rom.bin');
-  })();
+  const elements = document.querySelectorAll('.button');
+  elements.forEach(element => {
+    element.addEventListener('click', () => {
+      Nostalgist.megadrive('https://emocre.com/assets/rom.bin');
+    })
+  });
 </script>
+
+
+
+
+
