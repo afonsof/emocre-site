@@ -247,3 +247,156 @@ body {
   height: 100%;
   background-color: black;
 }
+
+// Virtual Joypad Styles
+#virtual-joypad {
+  position: fixed;
+  bottom: 50px;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  pointer-events: none;
+  display: none;
+}
+
+.joypad-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 0 20px;
+  pointer-events: auto;
+}
+
+.center-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.start-btn {
+  width: 80px;
+  height: 30px;
+  color: white;
+  border: 2px solid #333;
+  border-radius: 15px;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+  user-select: none;
+  touch-action: manipulation;
+  background: transparent;
+
+  &:active {
+    background: rgba(255, 255, 255, 0.3);
+    transform: scale(0.95);
+  }
+}
+
+.dpad {
+  position: relative;
+  width: 120px;
+  height: 120px;
+}
+
+.dpad-btn {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  border: 2px solid #333;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  user-select: none;
+  touch-action: manipulation;
+
+  &:active {
+    background: rgba(255, 255, 255, 0.3);
+    transform: scale(0.95);
+  }
+
+  &.up {
+    top: 0;
+    left: 40px;
+  }
+
+  &.left {
+    top: 32px;
+    left: 0;
+  }
+
+  &.right {
+    top: 32px;
+    right: 0;
+  }
+
+  &.down {
+    bottom: 0;
+    left: 40px;
+  }
+}
+
+.action-buttons {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.action-btn {
+  width: 60px;
+  height: 60px;
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  border: 2px solid #333;
+  border-radius: 50%;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  user-select: none;
+  touch-action: manipulation;
+
+  &:active {
+    background: rgba(255, 255, 255, 0.3);
+    transform: scale(0.95);
+  }
+}
+
+@media (max-width: 768px) {
+  // ...existing code...
+
+  .joypad-container {
+    padding: 0 10px;
+  }
+
+  .dpad {
+    width: 100px;
+    height: 100px;
+  }
+
+  .dpad-btn {
+    width: 35px;
+    height: 35px;
+    font-size: 16px;
+
+    &.up, &.down {
+      left: 32.5px;
+    }
+  }
+
+  .start-btn {
+    width: 70px;
+    height: 25px;
+    font-size: 11px;
+  }
+
+  .action-btn {
+    width: 50px;
+    height: 50px;
+    font-size: 18px;
+  }
+}
