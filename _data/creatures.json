@@ -11,7 +11,7 @@
   {
     "number": "2",
     "name": "Alegrã",
-    "description": "",
+    "description": "Com membros ágeis e olhos brilhantes, vive dançando em círculos como se o chão fosse feito de música. Sua presença eleva o humor de qualquer ambiente.",
     "type1": "joy",
     "type2": null,
     "emotion": "joy",
@@ -20,11 +20,20 @@
   {
     "number": "3",
     "name": "Coaxtase",
-    "description": "",
+    "description": "Emana um canto harmonioso capaz de acalmar tempestades emocionais. Seu corpo vibra em sintonia com os sentimentos ao redor, transformando tristeza em luz.",
     "type1": "joy",
     "type2": null,
     "emotion": "joy",
     "stage": 3
+  },
+  {
+    "number": "4",
+    "name": "Raivalin",
+    "description": "Movido pela raiva, bufa e avança sem pensar. Seu poder é limitado, mas sua fúria parece infinita.",
+    "type1": "anger",
+    "type2": null,
+    "emotion": "anger",
+    "stage": 1
   },
   {
     "number": "7",
