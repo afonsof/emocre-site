@@ -36,6 +36,24 @@
     "stage": 1
   },
   {
+    "number": "5",
+    "name": "Raivalot",
+    "description": "Libera sua fúria em investidas poderosas. Sua força aumenta, mas sua cólera nunca se sacia.",
+    "type1": "anger",
+    "type2": null,
+    "emotion": "anger",
+    "stage": 2
+  },
+  {
+    "number": "6",
+    "name": "Ravalon",
+    "description": "Imponente, concentra a ira em cada golpe. Um colosso tomado pela raiva, destrutivo e incansável.",
+    "type1": "anger",
+    "type2": null,
+    "emotion": "anger",
+    "stage": 3
+  },
+  {
     "number": "7",
     "name": "Jururu",
     "description": "Olhar caído e passos lentos, vive cabisbaixo às margens dos lagos. Seu silêncio parece pedir um abraço.",
