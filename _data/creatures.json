@@ -12,7 +12,15 @@
     "hp": 47,
     "attack": 60,
     "defense": 60,
-    "speed": 47
+    "speed": 47,
+    "weaknesses": [
+      "anger",
+      "disgust"
+    ],
+    "weaknessesPt": [
+      "raiva",
+      "nojo"
+    ]
   },
   {
     "number": "2",
@@ -27,7 +35,15 @@
     "hp": 66,
     "attack": 67,
     "defense": 68,
-    "speed": 66
+    "speed": 66,
+    "weaknesses": [
+      "anger",
+      "disgust"
+    ],
+    "weaknessesPt": [
+      "raiva",
+      "nojo"
+    ]
   },
   {
     "number": "3",
@@ -42,7 +58,15 @@
     "hp": 88,
     "attack": 89,
     "defense": 90,
-    "speed": 88
+    "speed": 88,
+    "weaknesses": [
+      "anger",
+      "disgust"
+    ],
+    "weaknessesPt": [
+      "raiva",
+      "nojo"
+    ]
   },
   {
     "number": "4",
@@ -57,7 +81,15 @@
     "hp": 40,
     "attack": 58,
     "defense": 48,
-    "speed": 67
+    "speed": 67,
+    "weaknesses": [
+      "sadness",
+      "trust"
+    ],
+    "weaknessesPt": [
+      "tristeza",
+      "confiança"
+    ]
   },
   {
     "number": "5",
@@ -72,7 +104,15 @@
     "hp": 57,
     "attack": 71,
     "defense": 61,
-    "speed": 78
+    "speed": 78,
+    "weaknesses": [
+      "sadness",
+      "trust"
+    ],
+    "weaknessesPt": [
+      "tristeza",
+      "confiança"
+    ]
   },
   {
     "number": "6",
@@ -87,7 +127,15 @@
     "hp": 77,
     "attack": 96,
     "defense": 81,
-    "speed": 99
+    "speed": 99,
+    "weaknesses": [
+      "sadness",
+      "trust"
+    ],
+    "weaknessesPt": [
+      "tristeza",
+      "confiança"
+    ]
   },
   {
     "number": "7",
@@ -102,7 +150,15 @@
     "hp": 47,
     "attack": 52,
     "defense": 69,
-    "speed": 46
+    "speed": 46,
+    "weaknesses": [
+      "joy",
+      "trust"
+    ],
+    "weaknessesPt": [
+      "alegria",
+      "confiança"
+    ]
   },
   {
     "number": "31",
@@ -117,7 +173,15 @@
     "hp": 27,
     "attack": 51,
     "defense": 61,
-    "speed": 27
+    "speed": 27,
+    "weaknesses": [
+      "anger",
+      "surprise"
+    ],
+    "weaknessesPt": [
+      "raiva",
+      "surpresa"
+    ]
   },
   {
     "number": "33",
@@ -132,7 +196,15 @@
     "hp": 85,
     "attack": 39,
     "defense": 39,
-    "speed": 3
+    "speed": 3,
+    "weaknesses": [
+      "fear",
+      "anticipation"
+    ],
+    "weaknessesPt": [
+      "medo",
+      "expectativa"
+    ]
   },
   {
     "number": "37",
@@ -147,7 +219,15 @@
     "hp": 71,
     "attack": 42,
     "defense": 42,
-    "speed": 12
+    "speed": 12,
+    "weaknesses": [
+      "sadness",
+      "joy"
+    ],
+    "weaknessesPt": [
+      "tristeza",
+      "alegria"
+    ]
   },
   {
     "number": "38",
@@ -162,7 +242,15 @@
     "hp": 88,
     "attack": 82,
     "defense": 88,
-    "speed": 28
+    "speed": 28,
+    "weaknesses": [
+      "sadness",
+      "joy"
+    ],
+    "weaknessesPt": [
+      "tristeza",
+      "alegria"
+    ]
   },
   {
     "number": "67",
@@ -178,7 +266,17 @@
     "hp": 47,
     "attack": 32,
     "defense": 52,
-    "speed": 32
+    "speed": 32,
+    "weaknesses": [
+      "anger",
+      "surprise",
+      "fear"
+    ],
+    "weaknessesPt": [
+      "raiva",
+      "surpresa",
+      "medo"
+    ]
   },
   {
     "number": "72",
@@ -194,7 +292,15 @@
     "hp": 68,
     "attack": 77,
     "defense": 59,
-    "speed": 102
+    "speed": 102,
+    "weaknesses": [
+      "sadness",
+      "surprise"
+    ],
+    "weaknessesPt": [
+      "tristeza",
+      "surpresa"
+    ]
   },
   {
     "number": "73",
@@ -210,7 +316,17 @@
     "hp": 45,
     "attack": 39,
     "defense": 45,
-    "speed": 34
+    "speed": 34,
+    "weaknesses": [
+      "sadness",
+      "joy",
+      "surprise"
+    ],
+    "weaknessesPt": [
+      "tristeza",
+      "alegria",
+      "surpresa"
+    ]
   },
   {
     "number": "76",
@@ -226,7 +342,15 @@
     "hp": 0,
     "attack": 0,
     "defense": 0,
-    "speed": 0
+    "speed": 0,
+    "weaknesses": [
+      "joy",
+      "fear"
+    ],
+    "weaknessesPt": [
+      "alegria",
+      "medo"
+    ]
   },
   {
     "number": "84",
@@ -242,7 +366,15 @@
     "hp": 65,
     "attack": 82,
     "defense": 141,
-    "speed": 34
+    "speed": 34,
+    "weaknesses": [
+      "joy",
+      "trust"
+    ],
+    "weaknessesPt": [
+      "alegria",
+      "confiança"
+    ]
   },
   {
     "number": "89",
@@ -258,7 +390,15 @@
     "hp": 39,
     "attack": 37,
     "defense": 37,
-    "speed": 54
+    "speed": 54,
+    "weaknesses": [
+      "fear",
+      "anticipation"
+    ],
+    "weaknessesPt": [
+      "medo",
+      "expectativa"
+    ]
   },
   {
     "number": "90",
@@ -274,7 +414,15 @@
     "hp": 61,
     "attack": 59,
     "defense": 59,
-    "speed": 73
+    "speed": 73,
+    "weaknesses": [
+      "fear",
+      "anticipation"
+    ],
+    "weaknessesPt": [
+      "medo",
+      "expectativa"
+    ]
   },
   {
     "number": "91",
@@ -290,6 +438,14 @@
     "hp": 35,
     "attack": 50,
     "defense": 40,
-    "speed": 41
+    "speed": 41,
+    "weaknesses": [
+      "sadness",
+      "trust"
+    ],
+    "weaknessesPt": [
+      "tristeza",
+      "confiança"
+    ]
   }
 ]
