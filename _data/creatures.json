@@ -161,8 +161,54 @@
     ]
   },
   {
+    "number": "8",
+    "name": "Xororô",
+    "description": "Seu canto triste ecoa como um lamento distante. Gosta de dias nublados, onde pode chorar sem ser notado.",
+    "type1Pt": "tristeza",
+    "type1": "sadness",
+    "type2": null,
+    "emotion": "sadness",
+    "emotionPt": "tristeza",
+    "stage": 2,
+    "hp": 60,
+    "attack": 65,
+    "defense": 82,
+    "speed": 59,
+    "weaknesses": [
+      "joy",
+      "trust"
+    ],
+    "weaknessesPt": [
+      "alegria",
+      "confiança"
+    ]
+  },
+  {
+    "number": "9",
+    "name": "Borocochô",
+    "description": "",
+    "type1Pt": "tristeza",
+    "type1": "sadness",
+    "type2": null,
+    "emotion": "sadness",
+    "emotionPt": "tristeza",
+    "stage": 3,
+    "hp": 81,
+    "attack": 86,
+    "defense": 106,
+    "speed": 80,
+    "weaknesses": [
+      "joy",
+      "trust"
+    ],
+    "weaknessesPt": [
+      "alegria",
+      "confiança"
+    ]
+  },
+  {
     "number": "31",
-    "name": "Kittensão",
+    "name": "Gatremor",
     "description": "",
     "type1Pt": "medo",
     "type1": "fear",
@@ -280,7 +326,7 @@
   },
   {
     "number": "72",
-    "name": "Garranca",
+    "name": "Carragress",
     "description": "",
     "type1Pt": "expectativa",
     "type2Pt": "raiva",
@@ -330,7 +376,7 @@
   },
   {
     "number": "76",
-    "name": "Ratón",
+    "name": "Ratazar",
     "description": "",
     "type1Pt": "expectativa",
     "type2Pt": "tristeza",
@@ -354,7 +400,7 @@
   },
   {
     "number": "84",
-    "name": "Gesperate",
+    "name": "Gesperada",
     "description": "",
     "type1Pt": "medo",
     "type2Pt": "tristeza",
@@ -378,7 +424,7 @@
   },
   {
     "number": "89",
-    "name": "Remorcego",
+    "name": "Remorcito",
     "description": "",
     "type1Pt": "nojo",
     "type2Pt": "tristeza",
@@ -402,7 +448,7 @@
   },
   {
     "number": "90",
-    "name": "Mandirá",
+    "name": "Remorcego",
     "description": "",
     "type1Pt": "nojo",
     "type2Pt": "tristeza",
@@ -426,7 +472,7 @@
   },
   {
     "number": "91",
-    "name": "Mibolado",
+    "name": "Micólera",
     "description": "",
     "type1Pt": "raiva",
     "type2Pt": "surpresa",
