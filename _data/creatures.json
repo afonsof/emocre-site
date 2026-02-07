@@ -1,0 +1,332 @@
+[
+  {
+    "number": 1,
+    "name": "Alegrino",
+    "description": "Sempre sorridente, nada em círculos espalhando alegria. Seu canto anima todos ao redor.",
+    "type1Pt": "Alegria",
+    "type1": "AL",
+    "emotion": "joy",
+    "emotionPt": "Alegria",
+    "stage": "1",
+    "hp": 47.058823529412,
+    "attack": 59.607843137255,
+    "defense": 59.607843137255,
+    "speed": 47.058823529412,
+    "weaknesses": [
+      "SU",
+      "TR"
+    ],
+    "weaknessesPt": [
+      "Surpresa",
+      "Tristeza"
+    ],
+    "artPath": "creature/creatures/joy/joy-1-art-front.png"
+  },
+  {
+    "number": 2,
+    "name": "Alegrã",
+    "description": "Com membros ágeis e olhos brilhantes, vive dançando em círculos como se o chão fosse feito de música. Sua presença eleva o humor de qualquer ambiente.",
+    "type1Pt": "Alegria",
+    "type1": "AL",
+    "emotion": "joy",
+    "emotionPt": "Alegria",
+    "stage": "2",
+    "hp": 65.959952885748,
+    "attack": 66.902237926973,
+    "defense": 67.844522968198,
+    "speed": 65.959952885748,
+    "weaknesses": [
+      "SU",
+      "TR"
+    ],
+    "weaknessesPt": [
+      "Surpresa",
+      "Tristeza"
+    ],
+    "artPath": "creature/creatures/joy/joy-2-art-front.png"
+  },
+  {
+    "number": 3,
+    "name": "Coaxtase",
+    "description": "Emana um canto harmonioso capaz de acalmar tempestades emocionais. Seu corpo vibra em sintonia com os sentimentos ao redor, transformando tristeza em luz.",
+    "type1Pt": "Alegria",
+    "type1": "AL",
+    "emotion": "joy",
+    "emotionPt": "Alegria",
+    "stage": "3",
+    "hp": 87.603305785124,
+    "attack": 88.576675849403,
+    "defense": 89.550045913682,
+    "speed": 87.603305785124,
+    "weaknesses": [
+      "SU",
+      "TR"
+    ],
+    "weaknessesPt": [
+      "Surpresa",
+      "Tristeza"
+    ],
+    "artPath": "creature/creatures/joy/joy-3-art-front.png"
+  },
+  {
+    "number": 4,
+    "name": "Raivalin",
+    "description": "Movido pela raiva, bufa e avança sem pensar. Seu poder é limitado, mas sua fúria parece infinita.",
+    "type1Pt": "Raiva",
+    "type1": "RA",
+    "emotion": "anger",
+    "emotionPt": "Raiva",
+    "stage": "1",
+    "hp": 40.193236714976,
+    "attack": 57.713365539452,
+    "defense": 48.438003220612,
+    "speed": 66.988727858293,
+    "weaknesses": [
+      "AL",
+      "ME"
+    ],
+    "weaknessesPt": [
+      "Alegria",
+      "Medo"
+    ],
+    "artPath": "creature/creatures/anger/anger-1-art-front.png"
+  },
+  {
+    "number": 5,
+    "name": "Raivalot",
+    "description": "Libera sua fúria em investidas poderosas. Sua força aumenta, mas sua cólera nunca se sacia.",
+    "type1Pt": "Raiva",
+    "type1": "RA",
+    "emotion": "anger",
+    "emotionPt": "Raiva",
+    "stage": "2",
+    "hp": 56.862745098039,
+    "attack": 70.588235294118,
+    "defense": 60.78431372549,
+    "speed": 78.43137254902,
+    "weaknesses": [
+      "AL",
+      "ME"
+    ],
+    "weaknessesPt": [
+      "Alegria",
+      "Medo"
+    ],
+    "artPath": "creature/creatures/anger/anger-2-art-front.png"
+  },
+  {
+    "number": 6,
+    "name": "Ravalon",
+    "description": "Imponente, concentra a ira em cada golpe. Um colosso tomado pela raiva, destrutivo e incansável.",
+    "type1Pt": "Raiva",
+    "type1": "RA",
+    "emotion": "anger",
+    "emotionPt": "Raiva",
+    "stage": "3",
+    "hp": 77.198879551821,
+    "attack": 96.003734827264,
+    "defense": 81.157796451914,
+    "speed": 98.972922502334,
+    "weaknesses": [
+      "AL",
+      "ME"
+    ],
+    "weaknessesPt": [
+      "Alegria",
+      "Medo"
+    ],
+    "artPath": "creature/creatures/anger/anger-3-art-front.png"
+  },
+  {
+    "number": 7,
+    "name": "Jururu",
+    "description": "Olhar caído e passos lentos, vive encolhido às margens dos lagos. Seu silêncio parece pedir um abraço.",
+    "type1Pt": "Tristeza",
+    "type1": "TR",
+    "emotion": "sadness",
+    "emotionPt": "Tristeza",
+    "stage": "1",
+    "hp": 46.699834162521,
+    "attack": 52.006633499171,
+    "defense": 68.988391376451,
+    "speed": 45.638474295191,
+    "weaknesses": [
+      "SU",
+      "RA"
+    ],
+    "weaknessesPt": [
+      "Surpresa",
+      "Raiva"
+    ],
+    "artPath": "creature/creatures/sadness/sadness-1-art-front.png"
+  },
+  {
+    "number": 8,
+    "name": "Xororô",
+    "description": "Seu canto triste ecoa como um lamento distante. Gosta de dias nublados, onde pode chorar sem ser notado.",
+    "type1Pt": "Tristeza",
+    "type1": "TR",
+    "emotion": "sadness",
+    "emotionPt": "Tristeza",
+    "stage": "2",
+    "hp": 60.280970625798,
+    "attack": 65.389527458493,
+    "defense": 81.736909323116,
+    "speed": 59.259259259259,
+    "weaknesses": [
+      "SU",
+      "RA"
+    ],
+    "weaknessesPt": [
+      "Surpresa",
+      "Raiva"
+    ],
+    "artPath": "creature/creatures/sadness/sadness-2-art-front.png"
+  },
+  {
+    "number": 9,
+    "name": "Borocochô",
+    "description": "Passa os dias cabisbaixo, olhando para o chão como se carregasse todo o peso da tristeza. Suas asas raramente se abrem, tornando seu voo um acontecimento raro e melancólico.",
+    "type1Pt": "Tristeza",
+    "type1": "TR",
+    "emotion": "sadness",
+    "emotionPt": "Tristeza",
+    "stage": "3",
+    "hp": 81.143410852713,
+    "attack": 86.279069767442,
+    "defense": 105.794573643411,
+    "speed": 80.116279069767,
+    "weaknesses": [
+      "SU",
+      "RA"
+    ],
+    "weaknessesPt": [
+      "Surpresa",
+      "Raiva"
+    ],
+    "artPath": "creature/creatures/sadness/sadness-3-art-front.png"
+  },
+  {
+    "number": 10,
+    "name": "Firmiga",
+    "description": "",
+    "type1Pt": "Confiança",
+    "type1": "CO",
+    "emotion": "trust",
+    "emotionPt": "Confiança",
+    "stage": "1",
+    "hp": 121.904761904762,
+    "attack": 12.190476190476,
+    "defense": 42.666666666667,
+    "speed": 36.571428571429,
+    "weaknesses": [
+      "TR",
+      "RA"
+    ],
+    "weaknessesPt": [
+      "Tristeza",
+      "Raiva"
+    ],
+    "artPath": "creature/creatures/trust/trust-1-art-front.png"
+  },
+  {
+    "number": 89,
+    "name": "Remorcito",
+    "description": "Habita cavernas úmidas e silenciosas, onde passa longas horas refletindo sobre seus próprios erros. Durante a noite, voa em círculos lentos, Como se estivesse preso ao peso do remorso que nunca o deixa descansar.",
+    "type1Pt": "Tristeza",
+    "type2Pt": "Nojo",
+    "type1": "TR",
+    "type2": "NO",
+    "emotion": "remorse",
+    "emotionPt": "Remorso",
+    "stage": "1",
+    "hp": 38.986354775829,
+    "attack": 37.037037037037,
+    "defense": 37.037037037037,
+    "speed": 53.606237816764,
+    "weaknesses": [
+      "SU",
+      "RA"
+    ],
+    "weaknessesPt": [
+      "Surpresa",
+      "Raiva"
+    ],
+    "artPath": "creature/creatures/remorse/remorse-1-art-front.png"
+  },
+  {
+    "number": 90,
+    "name": "Remorcego",
+    "description": "Vive em cavernas úmidas e raramente consegue alçar voo, pois o peso do remorso é tão grande que suas asas apenas cobrem o rosto, numa tentativa de se esconder da luz que revela suas culpas.",
+    "type1Pt": "Tristeza",
+    "type2Pt": "Nojo",
+    "type1": "TR",
+    "type2": "NO",
+    "emotion": "remorse",
+    "emotionPt": "Remorso",
+    "stage": "2",
+    "hp": 60.610932475884,
+    "attack": 58.994640943194,
+    "defense": 58.994640943194,
+    "speed": 72.733118971061,
+    "weaknesses": [
+      "SU",
+      "RA"
+    ],
+    "weaknessesPt": [
+      "Surpresa",
+      "Raiva"
+    ],
+    "artPath": "creature/creatures/remorse/remorse-2-art-front.png"
+  },
+  {
+    "number": 91,
+    "name": "Micólera",
+    "description": "Pequeno no tamanho e gigante na intensidade. Surge de repente quando algo inesperado desperta uma faísca de fúria. Quando aparece, ninguém passa indiferente.",
+    "type1Pt": "Surpresa",
+    "type2Pt": "Raiva",
+    "type1": "SU",
+    "type2": "RA",
+    "emotion": "outrage",
+    "emotionPt": "Indignação",
+    "stage": "1",
+    "hp": 35.374149659864,
+    "attack": 50.340136054422,
+    "defense": 40.136054421769,
+    "speed": 40.816326530612,
+    "weaknesses": [
+      "ME",
+      "EX"
+    ],
+    "weaknessesPt": [
+      "Medo",
+      "Expectativa"
+    ],
+    "artPath": "creature/creatures/outrage/outrage-1-art-front.png"
+  },
+  {
+    "number": 92,
+    "name": "Gorilado",
+    "description": "",
+    "type1Pt": "Surpresa",
+    "type2Pt": "Raiva",
+    "type1": "SU",
+    "type2": "RA",
+    "emotion": "outrage",
+    "emotionPt": "Indignação",
+    "stage": "2",
+    "hp": 65.899371069182,
+    "attack": 108.415094339623,
+    "defense": 94.59748427673,
+    "speed": 69.088050314465,
+    "weaknesses": [
+      "ME",
+      "EX"
+    ],
+    "weaknessesPt": [
+      "Medo",
+      "Expectativa"
+    ],
+    "artPath": "creature/creatures/outrage/outrage-2-art-front.png"
+  }
+]

@@ -1,0 +1,26 @@
+{
+  "name": "site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/afonsof/emocre-site.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/afonsof/emocre-site/issues"
+  },
+  "homepage": "https://github.com/afonsof/emocre-site#readme",
+  "type": "module",
+  "dependencies": {
+    "@11ty/eleventy": "^3.1.2",
+    "sass": "^1.93.2"
+  },
+  "scripts": {
+    "start": "eleventy --formats=scss,html --serve",
+    "build": "eleventy --formats=scss,html"
+  }
+}

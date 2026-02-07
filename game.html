@@ -1,0 +1,183 @@
+---
+layout: default
+title: "Emocre - Jogue a demo agora!"
+description: "Emocre é um jogo de captura de criaturas onde você precisa domar todas as emoções. Conheça as criaturas
+emocionais e embarque nesta aventura única!"
+---
+
+<section class="hero">
+  <div class="container">
+    <div class="hero-content">
+      <h1 class="hero-title">
+        <a href="/" class="title-main">
+          <img
+              src="/assets/logo.png"
+              style="width: 400px; height: auto;"
+              alt="Emocre - Emotion Creatures"
+              class="logo-img"
+          />
+        </a>
+      </h1>
+    </div>
+
+    <h2 class="title button" style="cursor: pointer">JOGAR!</h2>
+
+    <div class="demo-box" style="background: hsla(0, 0%, 100%, .8);
+    border-radius: 20px; width: 100%; padding:20px;margin-bottom: 20px;">
+      <div style="display: flex; justify-content: center; gap: 10px; flex-wrap: wrap;">
+        <img
+            src="/assets/screen0.png"
+            alt="Screen 0"
+        />
+        <img
+            src="/assets/screen1.png"
+            alt="Screen 1"
+        />
+        <img
+            src="/assets/screen3.png"
+            alt="Screen 3"
+        />
+        <img
+            src="/assets/screen2.png"
+            alt="Screen 2"
+        />
+        <img
+            src="/assets/screen4.png"
+            alt="Screen 4"
+        />
+      </div>
+
+      <br>
+
+
+      Esta é uma tech demo de Emocre,
+      um projeto para MEGADRIVE em desenvolvimento.<br>
+      Tudo o que você vê aqui: visuais, mecânicas, balanceamento e até
+      a interface irão mudar até a versão final.<br>
+      O objetivo desta demo é testar ideias e mostrar um pouco do conceito do jogo,
+      não representar o produto final.<br>
+      <br>
+      <h1>Comandos</h1>
+
+      Mundo<br>
+      ← e →: Mover<br>
+      C (X no teclado): pular<br>
+
+      Batalha<br>
+      ← → ↑ ↓: Mover cursor<br>
+      C (X no teclado): Confirmar<br>
+      B (Z no teclado): Voltar<br>
+    </div>
+
+    <h2 class="title button" style="cursor: pointer">JOGAR!</h2>
+  </div>
+</section>
+
+<script src="https://unpkg.com/nostalgist"></script>
+
+<script>
+  let nostalgistInstance = null;
+
+  // Função para detectar se é dispositivo móvel
+  function isMobile() {
+    return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ||
+      ('ontouchstart' in window) ||
+      (navigator.maxTouchPoints > 0);
+  }
+
+  // Função para criar o virtual joypad
+  function createVirtualJoypad() {
+    const joypadHTML = `
+      <div id="virtual-joypad">
+        <div class="joypad-container">
+          <div class="dpad">
+            <button class="dpad-btn up" data-key="ArrowUp">↑</button>
+            <button class="dpad-btn left" data-key="ArrowLeft">←</button>
+            <button class="dpad-btn right" data-key="ArrowRight">→</button>
+            <button class="dpad-btn down" data-key="ArrowDown">↓</button>
+          </div>
+          <div class="center-buttons">
+            <button class="start-btn" data-key="Enter">START</button>
+          </div>
+          <div class="action-buttons">
+            <button class="action-btn b-btn" data-key="KeyZ">B</button>
+            <button class="action-btn c-btn" data-key="KeyX">C</button>
+          </div>
+        </div>
+      </div>
+    `;
+
+    document.body.insertAdjacentHTML('beforeend', joypadHTML);
+    setupJoypadEvents();
+  }
+
+  const elements = document.querySelectorAll('.button');
+  elements.forEach(element => {
+    element.addEventListener('click', async () => {
+      nostalgistInstance = await Nostalgist.megadrive('https://emocre.com/assets/rom.bin');
+
+      // Criar e mostrar joypad se for mobile
+      if (isMobile() && !document.getElementById('virtual-joypad')) {
+        createVirtualJoypad();
+      }
+
+      if (document.getElementById('virtual-joypad')) {
+        document.getElementById('virtual-joypad').style.display = 'block';
+      }
+    })
+  });
+
+  // Função para simular teclas
+  function simulateKey(key, type) {
+    if (!nostalgistInstance) return;
+
+    const event = new KeyboardEvent(type, {
+      key: key,
+      code: key,
+      bubbles: true,
+      cancelable: true
+    });
+
+    // Enviar evento para o canvas do emulador
+    const canvas = document.querySelector('canvas');
+    if (canvas) {
+      canvas.dispatchEvent(event);
+    }
+  }
+
+  // Configurar eventos dos botões do joypad
+  function setupJoypadEvents() {
+    const joypadButtons = document.querySelectorAll('[data-key]');
+
+    joypadButtons.forEach(button => {
+      const key = button.getAttribute('data-key');
+
+      // Eventos de toque
+      button.addEventListener('touchstart', (e) => {
+        e.preventDefault();
+        simulateKey(key, 'keydown');
+      });
+
+      button.addEventListener('touchend', (e) => {
+        e.preventDefault();
+        simulateKey(key, 'keyup');
+      });
+
+      // Eventos de mouse (para desktop)
+      button.addEventListener('mousedown', (e) => {
+        e.preventDefault();
+        simulateKey(key, 'keydown');
+      });
+
+      button.addEventListener('mouseup', (e) => {
+        e.preventDefault();
+        simulateKey(key, 'keyup');
+      });
+
+      // Prevenir context menu em toque longo
+      button.addEventListener('contextmenu', (e) => {
+        e.preventDefault();
+      });
+    });
+  }
+</script>

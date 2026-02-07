@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'pt-BR' }}">
+
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-6N4HC3X6MT"></script>
+  <script>
+    window.dataLayer = window.dataLayer || []
+
+    function gtag() {
+      dataLayer.push(arguments)
+    }
+
+    gtag('js', new Date())
+    gtag('config', 'G-6N4HC3X6MT')
+  </script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ title }}</title>
+  <meta name="description" content="{{ description }}">
+
+  <!-- Favicons -->
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
+  <link rel="stylesheet" href="/assets/css/main.css">
+
+  <meta property="og:title" content="{{ page.title | default: site.title }}">
+  <meta property="og:description" content="{{ page.description | default: site.description }}">
+  <meta property="og:url" content="{{ page.url }}">
+  <meta property="og:type" content="website">
+
+</head>
+
+<body>
+<div class="top-bar">🇧🇷 Monster Tamer 100% brasileiro -
+  👾 Para Mega Drive & Steam <span class="only-desktop">- 🛠️ Em desenvolvimento</span>
+</div>
+<main class="site-content">
+  {{ content }}
+</main>
+</body>
+
+</html>
