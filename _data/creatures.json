@@ -230,6 +230,29 @@
     "artPath": "creature/creatures/trust/trust-1-art-front.png"
   },
   {
+    "number": 11,
+    "name": "Configa",
+    "description": "",
+    "type1Pt": "Confiança",
+    "type1": "CO",
+    "emotion": "trust",
+    "emotionPt": "Confiança",
+    "stage": "2",
+    "hp": 177.777777777778,
+    "attack": 14.222222222222,
+    "defense": 39.111111111111,
+    "speed": 35.555555555556,
+    "weaknesses": [
+      "TR",
+      "RA"
+    ],
+    "weaknessesPt": [
+      "Tristeza",
+      "Raiva"
+    ],
+    "artPath": "creature/creatures/trust/trust-2-art-front.png"
+  },
+  {
     "number": 89,
     "name": "Remorcito",
     "description": "Habita cavernas úmidas e silenciosas, onde passa longas horas refletindo sobre seus próprios erros. Durante a noite, voa em círculos lentos, Como se estivesse preso ao peso do remorso que nunca o deixa descansar.",
