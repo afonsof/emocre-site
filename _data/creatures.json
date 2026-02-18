@@ -209,7 +209,7 @@
   {
     "number": 10,
     "name": "Firmiga",
-    "description": "",
+    "description": "De postura ereta e olhar inabalável, finca sua bandeira no solo sem hesitar. Mesmo sozinha, sua confiança é contagiante; ela não precisa ver seus aliados para saber que eles virão.",
     "type1Pt": "Confiança",
     "type1": "CO",
     "emotion": "trust",
@@ -232,7 +232,7 @@
   {
     "number": 11,
     "name": "Configa",
-    "description": "",
+    "description": "A certeza da primeira atraiu a segunda. Agora em dupla, seguram o mastro da bandeira com vigor redobrado, trocando olhares de cumplicidade que afastam qualquer dúvida. Sabem que a união validou sua fé",
     "type1Pt": "Confiança",
     "type1": "CO",
     "emotion": "trust",
@@ -251,6 +251,29 @@
       "Raiva"
     ],
     "artPath": "creature/creatures/trust/trust-2-art-front.png"
+  },
+  {
+    "number": 12,
+    "name": "Fortaliga",
+    "description": "O que era apenas uma aposta tornou-se um baluarte intransponível. Três vigilantes emergem formando uma base sólida, enquanto a bandeira tremula no ponto mais alto do monte. Sua presença irradia confiança absoluta.",
+    "type1Pt": "Confiança",
+    "type1": "CO",
+    "emotion": "trust",
+    "emotionPt": "Confiança",
+    "stage": "3",
+    "hp": 211.50234741784,
+    "attack": 35.66510172144,
+    "defense": 60.547730829421,
+    "speed": 45.618153364632,
+    "weaknesses": [
+      "TR",
+      "RA"
+    ],
+    "weaknessesPt": [
+      "Tristeza",
+      "Raiva"
+    ],
+    "artPath": "creature/creatures/trust/trust-3-art-front.png"
   },
   {
     "number": 89,
