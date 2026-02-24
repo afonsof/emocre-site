@@ -276,6 +276,33 @@
     "artPath": "creature/creatures/trust/trust-3-art-front.png"
   },
   {
+    "number": 77,
+    "name": "Vergula",
+    "description": "",
+    "type1Pt": "Medo",
+    "type2Pt": "Nojo",
+    "type1": "ME",
+    "type2": "NO",
+    "emotion": "shame",
+    "emotionPt": "Vergonha",
+    "stage": "1",
+    "hp": 38.541666666667,
+    "attack": 26.041666666667,
+    "defense": 42.708333333333,
+    "speed": 26.041666666667,
+    "weaknesses": [
+      "AL",
+      "CO",
+      "NO"
+    ],
+    "weaknessesPt": [
+      "Alegria",
+      "Confiança",
+      "Nojo"
+    ],
+    "artPath": "creature/creatures/shame/shame-1-art-front.png"
+  },
+  {
     "number": 89,
     "name": "Remorcito",
     "description": "Habita cavernas úmidas e silenciosas, onde passa longas horas refletindo sobre seus próprios erros. Durante a noite, voa em círculos lentos, Como se estivesse preso ao peso do remorso que nunca o deixa descansar.",
