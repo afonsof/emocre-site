@@ -299,6 +299,29 @@
     "artPath": "creature/creatures/disgust/disgust-1-art-front.png"
   },
   {
+    "number": 20,
+    "name": "Espinhojo",
+    "description": "Franze o focinho sempre que algo parece desagradável. Seus espinhos se eriçam imediatamente para afastar o que considera repulsivo.",
+    "type1Pt": "Nojo",
+    "type1": "NO",
+    "emotion": "disgust",
+    "emotionPt": "Nojo",
+    "stage": "2",
+    "energy": 64.516129032258,
+    "attack": 80.645161290323,
+    "defense": 78.494623655914,
+    "speed": 43.010752688172,
+    "weaknesses": [
+      "AL",
+      "CO"
+    ],
+    "weaknessesPt": [
+      "Alegria",
+      "Confiança"
+    ],
+    "artPath": "creature/creatures/disgust/disgust-2-art-front.png"
+  },
+  {
     "number": 77,
     "name": "Vergula",
     "description": "Frequentemente trêmula, encolhe-se em uma névoa viscosa para se esconder. Seu nado errático e pegajoso causa repulsa em todos ao redor.",
