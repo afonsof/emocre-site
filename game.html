@@ -114,7 +114,7 @@ emocionais e embarque nesta aventura única!"
   const elements = document.querySelectorAll('.button');
   elements.forEach(element => {
     element.addEventListener('click', async () => {
-      nostalgistInstance = await Nostalgist.megadrive('https://emocre.com/assets/emocre-alpha-0.5.bin');
+      nostalgistInstance = await Nostalgist.megadrive('https://emocre.com/assets/emocre-alpha-1.0.bin');
 
       // Criar e mostrar joypad se for mobile
       if (isMobile() && !document.getElementById('virtual-joypad')) {
