@@ -276,6 +276,29 @@
     "artPath": "creature/creatures/trust/trust-3-art-front.png"
   },
   {
+    "number": 13,
+    "name": "Crujá",
+    "description": "Observa cuidadosamente o horizonte aguardando o que está por vir. Seu canto suave anuncia que algo novo está prestes a acontecer.",
+    "type1Pt": "Expectativa",
+    "type1": "EX",
+    "emotion": "anticipation",
+    "emotionPt": "Expectativa",
+    "stage": "1",
+    "energy": 44.625850340136,
+    "attack": 62.040816326531,
+    "defense": 52.244897959184,
+    "speed": 54.421768707483,
+    "weaknesses": [
+      "CO",
+      "NO"
+    ],
+    "weaknessesPt": [
+      "Confiança",
+      "Nojo"
+    ],
+    "artPath": "creature/creatures/anticipation/anticipation-1-art-front.png"
+  },
+  {
     "number": 19,
     "name": "Nojoriço",
     "description": "Sempre alerta ao que parece sujo ou estragado. Levanta seus pequenos espinhos para manter distância do que considera nocivo.",
@@ -320,6 +343,29 @@
       "Confiança"
     ],
     "artPath": "creature/creatures/disgust/disgust-2-art-front.png"
+  },
+  {
+    "number": 21,
+    "name": "Ascoriço",
+    "description": "Corpulento, reage com caretas a qualquer coisa desagradável. Mostra a língua enquanto seus espinhos e seu mantêm tudo que é nocivo bem distante.",
+    "type1Pt": "Nojo",
+    "type1": "NO",
+    "emotion": "disgust",
+    "emotionPt": "Nojo",
+    "stage": "3",
+    "energy": 86.038961038961,
+    "attack": 108.982683982684,
+    "defense": 100.952380952381,
+    "speed": 57.359307359307,
+    "weaknesses": [
+      "AL",
+      "CO"
+    ],
+    "weaknessesPt": [
+      "Alegria",
+      "Confiança"
+    ],
+    "artPath": "creature/creatures/disgust/disgust-3-art-front.png"
   },
   {
     "number": 77,
