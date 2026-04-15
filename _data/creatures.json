@@ -299,6 +299,52 @@
     "artPath": "creature/creatures/anticipation/anticipation-1-art-front.png"
   },
   {
+    "number": 14,
+    "name": "Futurujá",
+    "description": "Se empolera em galhos altos para antecipar e planejar o futuro. Está sempre alguns passos a frente do que vai acontecer no ambiente.",
+    "type1Pt": "Expectativa",
+    "type1": "EX",
+    "emotion": "anticipation",
+    "emotionPt": "Expectativa",
+    "stage": "2",
+    "energy": 58.937198067633,
+    "attack": 74.396135265701,
+    "defense": 65.700483091788,
+    "speed": 67.632850241546,
+    "weaknesses": [
+      "CO",
+      "NO"
+    ],
+    "weaknessesPt": [
+      "Confiança",
+      "Nojo"
+    ],
+    "artPath": "creature/creatures/anticipation/anticipation-2-art-front.png"
+  },
+  {
+    "number": 15,
+    "name": "Vigilanco",
+    "description": "Nada abala sua atenção. No ápice da vigilância, observa tudo em silêncio e parece saber exatamente o que vai acontecer alguns minutos antes.",
+    "type1Pt": "Expectativa",
+    "type1": "EX",
+    "emotion": "anticipation",
+    "emotionPt": "Expectativa",
+    "stage": "3",
+    "energy": 83.298791018998,
+    "attack": 107.098445595855,
+    "defense": 89.706390328152,
+    "speed": 73.229706390328,
+    "weaknesses": [
+      "CO",
+      "NO"
+    ],
+    "weaknessesPt": [
+      "Confiança",
+      "Nojo"
+    ],
+    "artPath": "creature/creatures/anticipation/anticipation-3-art-front.png"
+  },
+  {
     "number": 19,
     "name": "Nojoriço",
     "description": "Sempre alerta ao que parece sujo ou estragado. Levanta seus pequenos espinhos para manter distância do que considera nocivo.",
