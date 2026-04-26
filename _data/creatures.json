@@ -414,6 +414,52 @@
     "artPath": "creature/creatures/disgust/disgust-3-art-front.png"
   },
   {
+    "number": 22,
+    "name": "Sugarta",
+    "description": "Avança curiosa pelo mundo, reagindo a cada novidade que encontra. Vive se assustando e se encantando com tudo ao seu redor.",
+    "type1Pt": "Surpresa",
+    "type1": "SU",
+    "emotion": "surprise",
+    "emotionPt": "Surpresa",
+    "stage": "1",
+    "energy": 49.04214559387,
+    "attack": 49.04214559387,
+    "defense": 46.590038314176,
+    "speed": 68.659003831418,
+    "weaknesses": [
+      "ME",
+      "EX"
+    ],
+    "weaknessesPt": [
+      "Medo",
+      "Expectativa"
+    ],
+    "artPath": "creature/creatures/surprise/surprise-1-art-front.png"
+  },
+  {
+    "number": 23,
+    "name": "Susulo",
+    "description": "Permanece fechado e imóvel, como um presente prestes a ser aberto. Ninguém sabe exatamente o que vai sair de dentro.",
+    "type1Pt": "Surpresa",
+    "type1": "SU",
+    "emotion": "surprise",
+    "emotionPt": "Surpresa",
+    "stage": "2",
+    "energy": 69.421487603306,
+    "attack": 60.606060606061,
+    "defense": 58.402203856749,
+    "speed": 78.236914600551,
+    "weaknesses": [
+      "ME",
+      "EX"
+    ],
+    "weaknessesPt": [
+      "Medo",
+      "Expectativa"
+    ],
+    "artPath": "creature/creatures/surprise/surprise-2-art-front.png"
+  },
+  {
     "number": 77,
     "name": "Vergula",
     "description": "Frequentemente trêmula, encolhe-se em uma névoa viscosa para se esconder. Seu nado errático e pegajoso causa repulsa em todos ao redor.",
