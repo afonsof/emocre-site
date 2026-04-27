@@ -644,25 +644,17 @@ body {
   }
 
   .dpad-btn {
-    width: 35px;
-    height: 35px;
-    font-size: 16px;
+    width: 33px;
+    height: 33px;
+    font-size: 15px;
 
     &.up, &.down {
-      left: 32.5px;
+      left: 33.5px;
     }
-  }
 
-  .start-btn {
-    width: 70px;
-    height: 25px;
-    font-size: 11px;
-  }
-
-  .action-btn {
-    width: 50px;
-    height: 50px;
-    font-size: 18px;
+    &.left, &.right {
+      top: 33.5px;
+    }
   }
 
   // Modal Styles
@@ -921,7 +913,7 @@ body {
 // Virtual Joypad Styles
 #virtual-joypad {
   position: fixed;
-  bottom: 50px;
+  bottom: 80px;
   left: 0;
   right: 0;
   z-index: 1000;
@@ -939,11 +931,11 @@ body {
   pointer-events: auto;
 }
 
-.center-buttons {
+.right-panel {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  margin-bottom: 30px;
+  align-items: flex-end;
+  gap: 48px;
 }
 
 .start-btn {
@@ -996,12 +988,12 @@ body {
   }
 
   &.left {
-    top: 32px;
+    top: 40px;
     left: 0;
   }
 
   &.right {
-    top: 32px;
+    top: 40px;
     right: 0;
   }
 
@@ -1013,8 +1005,7 @@ body {
 
 .action-buttons {
   display: flex;
-  gap: 15px;
-  margin-bottom: 20px;
+  gap: 10px;
 }
 
 .action-btn {
