@@ -20,6 +20,7 @@
       "Surpresa",
       "Tristeza"
     ],
+    "complexTypeName": "Alegria",
     "artPath": "creature/creatures/joy/joy-1-art-front.png"
   },
   {
@@ -43,6 +44,7 @@
       "Surpresa",
       "Tristeza"
     ],
+    "complexTypeName": "Alegria",
     "artPath": "creature/creatures/joy/joy-2-art-front.png"
   },
   {
@@ -66,6 +68,7 @@
       "Surpresa",
       "Tristeza"
     ],
+    "complexTypeName": "Alegria",
     "artPath": "creature/creatures/joy/joy-3-art-front.png"
   },
   {
@@ -89,6 +92,7 @@
       "Alegria",
       "Medo"
     ],
+    "complexTypeName": "Raiva",
     "artPath": "creature/creatures/anger/anger-1-art-front.png"
   },
   {
@@ -112,6 +116,7 @@
       "Alegria",
       "Medo"
     ],
+    "complexTypeName": "Raiva",
     "artPath": "creature/creatures/anger/anger-2-art-front.png"
   },
   {
@@ -135,6 +140,7 @@
       "Alegria",
       "Medo"
     ],
+    "complexTypeName": "Raiva",
     "artPath": "creature/creatures/anger/anger-3-art-front.png"
   },
   {
@@ -158,6 +164,7 @@
       "Surpresa",
       "Raiva"
     ],
+    "complexTypeName": "Tristeza",
     "artPath": "creature/creatures/sadness/sadness-1-art-front.png"
   },
   {
@@ -181,6 +188,7 @@
       "Surpresa",
       "Raiva"
     ],
+    "complexTypeName": "Tristeza",
     "artPath": "creature/creatures/sadness/sadness-2-art-front.png"
   },
   {
@@ -204,6 +212,7 @@
       "Surpresa",
       "Raiva"
     ],
+    "complexTypeName": "Tristeza",
     "artPath": "creature/creatures/sadness/sadness-3-art-front.png"
   },
   {
@@ -227,6 +236,7 @@
       "Tristeza",
       "Raiva"
     ],
+    "complexTypeName": "Confiança",
     "artPath": "creature/creatures/trust/trust-1-art-front.png"
   },
   {
@@ -250,6 +260,7 @@
       "Tristeza",
       "Raiva"
     ],
+    "complexTypeName": "Confiança",
     "artPath": "creature/creatures/trust/trust-2-art-front.png"
   },
   {
@@ -273,6 +284,7 @@
       "Tristeza",
       "Raiva"
     ],
+    "complexTypeName": "Confiança",
     "artPath": "creature/creatures/trust/trust-3-art-front.png"
   },
   {
@@ -296,6 +308,7 @@
       "Confiança",
       "Nojo"
     ],
+    "complexTypeName": "Expectativa",
     "artPath": "creature/creatures/anticipation/anticipation-1-art-front.png"
   },
   {
@@ -319,6 +332,7 @@
       "Confiança",
       "Nojo"
     ],
+    "complexTypeName": "Expectativa",
     "artPath": "creature/creatures/anticipation/anticipation-2-art-front.png"
   },
   {
@@ -342,6 +356,7 @@
       "Confiança",
       "Nojo"
     ],
+    "complexTypeName": "Expectativa",
     "artPath": "creature/creatures/anticipation/anticipation-3-art-front.png"
   },
   {
@@ -365,6 +380,7 @@
       "Alegria",
       "Confiança"
     ],
+    "complexTypeName": "Nojo",
     "artPath": "creature/creatures/disgust/disgust-1-art-front.png"
   },
   {
@@ -388,6 +404,7 @@
       "Alegria",
       "Confiança"
     ],
+    "complexTypeName": "Nojo",
     "artPath": "creature/creatures/disgust/disgust-2-art-front.png"
   },
   {
@@ -411,6 +428,7 @@
       "Alegria",
       "Confiança"
     ],
+    "complexTypeName": "Nojo",
     "artPath": "creature/creatures/disgust/disgust-3-art-front.png"
   },
   {
@@ -434,6 +452,7 @@
       "Medo",
       "Expectativa"
     ],
+    "complexTypeName": "Surpresa",
     "artPath": "creature/creatures/surprise/surprise-1-art-front.png"
   },
   {
@@ -457,6 +476,7 @@
       "Medo",
       "Expectativa"
     ],
+    "complexTypeName": "Surpresa",
     "artPath": "creature/creatures/surprise/surprise-2-art-front.png"
   },
   {
@@ -484,6 +504,7 @@
       "Confiança",
       "Nojo"
     ],
+    "complexTypeName": "Vergonha",
     "artPath": "creature/creatures/shame/shame-1-art-front.png"
   },
   {
@@ -511,6 +532,7 @@
       "Confiança",
       "Nojo"
     ],
+    "complexTypeName": "Vergonha",
     "artPath": "creature/creatures/shame/shame-2-art-front.png"
   },
   {
@@ -536,6 +558,7 @@
       "Surpresa",
       "Raiva"
     ],
+    "complexTypeName": "Remorso",
     "artPath": "creature/creatures/remorse/remorse-1-art-front.png"
   },
   {
@@ -561,6 +584,7 @@
       "Surpresa",
       "Raiva"
     ],
+    "complexTypeName": "Remorso",
     "artPath": "creature/creatures/remorse/remorse-2-art-front.png"
   },
   {
@@ -586,6 +610,7 @@
       "Medo",
       "Expectativa"
     ],
+    "complexTypeName": "Indignação",
     "artPath": "creature/creatures/outrage/outrage-1-art-front.png"
   },
   {
@@ -611,6 +636,7 @@
       "Medo",
       "Expectativa"
     ],
+    "complexTypeName": "Indignação",
     "artPath": "creature/creatures/outrage/outrage-2-art-front.png"
   }
 ]
