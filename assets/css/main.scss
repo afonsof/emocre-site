@@ -994,6 +994,8 @@ footer {
   nav .nav-demo-only { display: none; }
 
   .demo-layout, .presskit-layout { grid-template-columns: 1fr; gap: 2.5rem; }
+  .demo-screenshots { order: 2; }
+  .demo-info { order: 1; }
   .modal-content { grid-template-columns: 1fr; }
   .modal-left { flex-direction: row; flex-wrap: wrap; gap: 1rem; }
   .modal-creature-img { width: 140px; height: 140px; flex-shrink: 0; }
@@ -1022,7 +1024,22 @@ footer {
   nav .nav-links a { font-size: 11px; }
 
   section { padding: 3.5rem 1.25rem; }
-  .hero { padding: 100px 1.25rem 60px; }
+  .hero { padding: 80px 1.25rem 80px; }
+
+  .hero-buttons {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+
+    .btn {
+      width: 100%;
+      justify-content: center;
+      font-size: 13px;
+      padding: 0.5rem 1.25rem;
+      border-radius: 6px;
+      svg { width: 16px; height: 16px; }
+    }
+  }
 
   .creatures-grid { grid-template-columns: repeat(2, 1fr); }
 }
