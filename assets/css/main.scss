@@ -143,13 +143,13 @@ nav .nav-cta {
 
 // ── HERO ──
 .hero {
-  min-height: 100vh;
+  min-height: calc(100dvh - 60px);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
-  padding: 120px 2rem 80px;
+  padding: 2rem;
   position: relative;
   overflow: hidden;
 }
