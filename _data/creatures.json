@@ -480,6 +480,30 @@
     "artPath": "creature/creatures/surprise/surprise-2-art-front.png"
   },
   {
+    "number": 24,
+    "name": "Surpoleta",
+    "description": "Surge de repente com asas em forma de exclamação. Seu aparecimento inesperado sempre provoca espanto por onde passa.",
+    "type1Pt": "Surpresa",
+    "type1": "SU",
+    "emotion": "surprise",
+    "emotionPt": "Surpresa",
+    "stage": "3",
+    "energy": 88.333333333333,
+    "attack": 79.819277108434,
+    "defense": 77.690763052209,
+    "speed": 107.489959839357,
+    "weaknesses": [
+      "ME",
+      "EX"
+    ],
+    "weaknessesPt": [
+      "Medo",
+      "Expectativa"
+    ],
+    "complexTypeName": "Surpresa",
+    "artPath": "creature/creatures/surprise/surprise-3-art-front.png"
+  },
+  {
     "number": 77,
     "name": "Vergula",
     "description": "Frequentemente trêmula, encolhe-se em uma névoa viscosa para se esconder. Seu nado errático e pegajoso causa repulsa em todos ao redor.",
