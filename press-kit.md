@@ -4,16 +4,16 @@ title: Press Kit
 ---
 
 
-# Emocre: Metroidvania Monster Tamer para Mega Drive Une Nostalgia com Inteligência Emocional
+# Emocre: Metroidvania Monster Tamer para Mega Drive Une Nostalgia 16-bit com Inteligência Emocional
 
 
-**São Paulo, Brasil — Abril de 2026** — O desenvolvedor solo **Afonso França de Oliveira** anuncia hoje que **Emocre**, seu novo título de Monster Tamer / Metroidvania, está em desenvolvimento ativo para **Mega Drive / Genesis e Steam (PC)**. O projeto foca em transformar emoções humanas em criaturas jogáveis através de um sistema de batalha por equilíbrio em vez de derrota, oferecendo uma experiência técnica 16-bit com pixel art e trilha sonora composta retrô.
+**São Paulo, Brasil — Maio de 2026** — O desenvolvedor solo **Afonso França de Oliveira** anuncia hoje que **Emocre**, seu novo título de Monster Tamer / Metroidvania, está em desenvolvimento ativo para **Mega Drive / Genesis e Steam (PC)**. O projeto foca em transformar emoções humanas em criaturas jogáveis através de um sistema de batalha por equilíbrio em vez de derrota, oferecendo uma experiência técnica 16-bit com pixel art e trilha sonora retrô.
 
 
 ## Sobre o Jogo
 
 
-Em **Emocre**, o jogador assume o papel de um protagonista que entra em colapso em um estado de catarse emocional, dando origem a criaturas vivas dentro de sua mente — os **Emocres**. Em vez de capturá-las ou destruí-las, ele as **assimila**, fazendo as pazes com cada sentimento.
+Em **Emocre**, o jogador assume o papel de um protagonista que entra em colapso em um estado de catarse emocional, dando origem a criaturas vivas dentro de sua mente: os **Emocres**. Em vez de capturá-las ou destruí-las, ele as **assimila**, fazendo as pazes com cada sentimento.
 
 
 O desenvolvimento priorizou a coerência entre mecânica e tema: as batalhas são vencidas quando o jogador leva o oponente ao **equilíbrio** (Equilibrium Bar), não ao zero de HP. Diferente de outros títulos do gênero, o game introduz a mecânica de **Harmonização como Win-State**, permitindo que o jogador explore o conflito como um estado de desequilíbrio a ser ajustado, não eliminado.
@@ -29,7 +29,7 @@ As inspirações declaradas são **Pokémon, Celeste, Divertidamente e Super Met
 
 
 | Categoria                 | Detalhes Técnicos                                     |
-| ------------------------- |-------------------------------------------------------|
+| ------------------------- | ----------------------------------------------------- |
 | Desenvolvedora            | Afonso França de Oliveira (solo dev)                  |
 | Gênero                    | Monster Tamer / Metroidvania / Plataforma de Precisão |
 | Plataformas               | Mega Drive / PC / Mac / Linux                         |
@@ -44,7 +44,7 @@ As inspirações declaradas são **Pokémon, Celeste, Divertidamente e Super Met
 ## Citação do Desenvolvedor
 
 > “Emocre nasceu de uma experiência pessoal. Sempre tive dificuldade em identificar minhas próprias emoções, e isso tem um custo real.  Ao estudar mais sobre o tema, entendi que esse processo faz parte do desenvolvimento da inteligência emocional. Este jogo é um convite para que o jogador percorra essa jornada comigo. Mais do que diversão, existe uma camada psicológica intencional: você não integra uma emoção sem antes reconhecê-la. O sistema de Equilibrium Bar existe para reforçar isso. Aqui, você não vence destruindo. Você vence entendendo.”
-> <br>**Afonso França de Oliveira**, desenvolvedor
+> — **Afonso França de Oliveira**, desenvolvedor
 
 ## Pilares de Design
 
@@ -81,17 +81,20 @@ Afonso França de Oliveira é desenvolvedor solo baseado no Brasil, com backgrou
 
 ## Screenshots
 
+
 <div class="screenshots-presskit">
-  <img src="/assets/screen0.png" alt="Emocre - screenshot 1" />
-  <img src="/assets/screen1.png" alt="Emocre - screenshot 2" />
-  <img src="/assets/screen2.png" alt="Emocre - screenshot 3" />
-  <img src="/assets/screen3.png" alt="Emocre - screenshot 4" />
-  <img src="/assets/screen4.png" alt="Emocre - screenshot 5" />
-  <img src="/assets/screen5.png" alt="Emocre - screenshot 6" />
-  <img src="/assets/screen6.png" alt="Emocre - screenshot 7" />
+<img src="/assets/screen0.png" alt="Emocre - screenshot 1" />
+<img src="/assets/screen1.png" alt="Emocre - screenshot 2" />
+<img src="/assets/screen2.png" alt="Emocre - screenshot 3" />
+<img src="/assets/screen3.png" alt="Emocre - screenshot 4" />
+<img src="/assets/screen4.png" alt="Emocre - screenshot 5" />
+<img src="/assets/screen5.png" alt="Emocre - screenshot 6" />
+<img src="/assets/screen6.png" alt="Emocre - screenshot 7" />
 </div>
 
+
 ## Media
+
 
 <div class="video-embed"><iframe src="https://www.youtube.com/embed/NWo2zawHuSI" frameborder="0" allowfullscreen></iframe></div>
 
