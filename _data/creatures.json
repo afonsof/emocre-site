@@ -440,6 +440,26 @@
 		"artPath": "creature/creatures/distraction/distraction-1-art-front.png"
 	},
 	{
+		"number": 38,
+		"name": "Capinguari",
+		"description": "Anda pela floresta sem rumo, atraído por qualquer som ou movimento ao redor. Vive mudando de direção, sempre distraído por algo novo no caminho.",
+		"type1Pt": "Surpresa",
+		"type2Pt": null,
+		"type1": "SU",
+		"type2": null,
+		"emotion": "distraction",
+		"emotionPt": "Distração",
+		"stage": "2",
+		"energy": 88.419913419914,
+		"attack": 81.904761904762,
+		"defense": 88.419913419914,
+		"speed": 27.922077922078,
+		"weaknesses": [ "ME", "EX" ],
+		"weaknessesPt": [ "Medo", "Expectativa" ],
+		"complexTypeName": "Distração",
+		"artPath": "creature/creatures/distraction/distraction-2-art-front.png"
+	},
+	{
 		"number": 77,
 		"name": "Vergula",
 		"description": "Frequentemente trêmula, encolhe-se em uma névoa viscosa para se esconder. Seu nado errático e pegajoso causa repulsa em todos ao redor.",
