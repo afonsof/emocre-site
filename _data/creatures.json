@@ -460,6 +460,26 @@
 		"artPath": "creature/creatures/distraction/distraction-2-art-front.png"
 	},
 	{
+		"number": 45,
+		"name": "Mascarim",
+		"description": "Esconde o rosto atrás de uma máscara que raramente remove. Tenta agir da forma certa, mesmo que isso o incomode por dentro.",
+		"type1Pt": "Alegria",
+		"type2Pt": "Medo",
+		"type1": "AL",
+		"type2": "ME",
+		"emotion": "guilt",
+		"emotionPt": "Culpa",
+		"stage": "1",
+		"energy": 22.571189279732,
+		"attack": 47.194304857621,
+		"defense": 54.170854271357,
+		"speed": 39.396984924623,
+		"weaknesses": [ "TR", "EX" ],
+		"weaknessesPt": [ "Tristeza", "Expectativa" ],
+		"complexTypeName": "Culpa",
+		"artPath": "creature/creatures/guilt/guilt-1-art-front.png"
+	},
+	{
 		"number": 77,
 		"name": "Vergula",
 		"description": "Frequentemente trêmula, encolhe-se em uma névoa viscosa para se esconder. Seu nado errático e pegajoso causa repulsa em todos ao redor.",
