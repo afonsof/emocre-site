@@ -403,6 +403,11 @@ document.addEventListener('keydown', e => { if (e.key === 'Escape') closeModal()
 
 // ── EMULATOR ──
 let nostalgistInstance = null;
+let demoTimer = null;
+
+function trackEvent(name) {
+  if (typeof gtag === 'function') gtag('event', name, { rom: 'emocre-alpha-1.0' });
+}
 
 function isMobile() {
   return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ||
@@ -455,6 +460,8 @@ async function openGame() {
   document.body.style.overflow = 'hidden';
   document.querySelector('nav').style.display = 'none';
   nostalgistInstance = await Nostalgist.megadrive('https://emocre.com/assets/emocre-alpha-1.0.bin');
+  trackEvent('demo_play');
+  demoTimer = setTimeout(() => trackEvent('demo_play_1min'), 60000);
   document.getElementById('gameCloseBtn').style.display = 'flex';
   if (isMobile() && !document.getElementById('virtual-joypad')) createVirtualJoypad();
   const joypad = document.getElementById('virtual-joypad');
@@ -463,6 +470,7 @@ async function openGame() {
 }
 
 function closeGame() {
+  if (demoTimer) { clearTimeout(demoTimer); demoTimer = null; }
   if (nostalgistInstance) { nostalgistInstance.exit(); nostalgistInstance = null; }
   document.getElementById('gameCloseBtn').style.display = 'none';
   document.querySelector('nav').style.display = '';
