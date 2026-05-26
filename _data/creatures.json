@@ -480,6 +480,26 @@
 		"artPath": "creature/creatures/guilt/guilt-1-art-front.png"
 	},
 	{
+		"number": 46,
+		"name": "Guarionete",
+		"description": "Controla um fantoche com um sorriso costurado. Acredita estar por trás dos fios, mas, aos poucos, o fantoche é quem o controla.",
+		"type1Pt": "Alegria",
+		"type2Pt": "Medo",
+		"type1": "AL",
+		"type2": "ME",
+		"emotion": "guilt",
+		"emotionPt": "Culpa",
+		"stage": "2",
+		"energy": 39.614740368509,
+		"attack": 82.830820770519,
+		"defense": 95.075376884422,
+		"speed": 69.145728643216,
+		"weaknesses": [ "TR", "EX" ],
+		"weaknessesPt": [ "Tristeza", "Expectativa" ],
+		"complexTypeName": "Culpa",
+		"artPath": "creature/creatures/guilt/guilt-2-art-front.png"
+	},
+	{
 		"number": 77,
 		"name": "Vergula",
 		"description": "Frequentemente trêmula, encolhe-se em uma névoa viscosa para se esconder. Seu nado errático e pegajoso causa repulsa em todos ao redor.",
