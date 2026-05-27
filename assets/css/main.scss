@@ -956,7 +956,7 @@ footer {
 
 #virtual-joypad {
   position: fixed;
-  bottom: 80px;
+  bottom: 10px;
   left: 0; right: 0;
   z-index: 1000;
   pointer-events: none;
@@ -967,8 +967,7 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-  max-width: 600px;
-  margin: 0 auto;
+  margin: 0;
   padding: 0 20px;
   pointer-events: auto;
 }
@@ -977,7 +976,7 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  gap: 48px;
+  gap: 5px;
 }
 
 .start-btn {
@@ -995,46 +994,38 @@ footer {
   &:active { background: rgba(255,255,255,0.3); transform: scale(0.95); }
 }
 
-.dpad {
+.joystick-zone {
   position: relative;
-  width: 120px; height: 120px;
+  width: 160px; height: 160px;
+  touch-action: none;
 }
 
-.dpad-btn {
-  position: absolute;
-  width: 40px; height: 40px;
-  background: rgba(0,0,0,0.7);
-  color: white;
-  border: 2px solid #333;
-  border-radius: 8px;
-  font-size: 18px;
-  font-weight: bold;
-  cursor: pointer;
-  user-select: none;
-  touch-action: manipulation;
-
-  &:active { background: rgba(255,255,255,0.3); transform: scale(0.95); }
-  &.up   { top: 0; left: 40px; }
-  &.left { top: 40px; left: 0; }
-  &.right { top: 40px; right: 0; }
-  &.down { bottom: 0; left: 40px; }
-}
-
-.action-buttons { display: flex; gap: 10px; }
+// A/B/C arranged as a triangle: B (bigger) on top, A and C (smaller) below.
+.action-buttons { position: relative; width: 160px; height: 165px; }
 
 .action-btn {
-  width: 60px; height: 60px;
+  position: absolute;
+  width: 158px; height: 96px;
   background: rgba(0,0,0,0.7);
   color: white;
   border: 2px solid #333;
-  border-radius: 50%;
-  font-size: 20px;
+  border-radius: 15px;
+  font-size: 30px;
   font-weight: bold;
   cursor: pointer;
   user-select: none;
   touch-action: manipulation;
 
-  &:active { background: rgba(255,255,255,0.3); transform: scale(0.95); }
+  &:active { background: rgba(255,255,255,0.3); }
+
+  // B (central) on top
+  &:nth-child(2) { top: 0; left: 50%; transform: translateX(-50%); }
+  &:nth-child(2):active { transform: translateX(-50%); width: 50px; }
+
+  // A and C slightly smaller, on the bottom row
+  &:nth-child(1), &:nth-child(3) { width: 76px; height: 66px; font-size: 22px; bottom: 0; }
+  &:nth-child(1) { left: 0; }
+  &:nth-child(3) { right: 0; }
 }
 
 // ── RESPONSIVE ──
@@ -1066,14 +1057,14 @@ footer {
 
   .joypad-container { padding: 0 10px; }
 
-  .dpad { width: 100px; height: 100px; }
+  .joystick-zone { width: 180px; height: 180px; }
+}
 
-  .dpad-btn {
-    width: 33px; height: 33px; font-size: 15px;
-
-    &.up, &.down { left: 33.5px; }
-    &.left, &.right { top: 33.5px; }
-  }
+// On touch devices (where the on-screen joypad shows) keep the wishlist button
+// on the left, regardless of orientation — landscape phones can be wider than
+// 768px so a width-based query alone misses them.
+@media (pointer: coarse) {
+  #gameWishlistBtn { right: auto; left: 1rem; }
 }
 
 @media (max-width: 480px) {
