@@ -886,6 +886,64 @@ footer {
   &:hover { background: rgba(0,0,0,0.9); }
 }
 
+#gameWishlistBtn {
+  display: none;
+  position: fixed;
+  top: 1rem;
+  right: 7.5rem;
+  z-index: 10001;
+  align-items: center;
+  gap: 0.4rem;
+  font-family: var(--font-game);
+  font-size: 12px;
+  letter-spacing: 1px;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  border: 1px solid #2a475e;
+  cursor: pointer;
+  background: #1b2838;
+  color: #c7d5e0;
+  text-decoration: none;
+  backdrop-filter: blur(4px);
+  transition: background 0.2s;
+
+  &:hover { background: #2a475e; }
+}
+
+#wishlistPrompt {
+  display: none;
+  position: fixed;
+  inset: 0;
+  z-index: 10002;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+  background: rgba(0,0,0,0.8);
+  backdrop-filter: blur(6px);
+
+  .wishlist-prompt-card {
+    max-width: 420px;
+    width: 100%;
+    text-align: center;
+    padding: 2rem 1.75rem;
+    border-radius: 14px;
+    background: var(--bg2);
+    border: 1px solid rgba(80,140,80,0.25);
+    box-shadow: 0 12px 40px rgba(0,0,0,0.5);
+
+    h3 { margin: 0 0 0.5rem; font-size: 22px; }
+    p { margin: 0 0 1.5rem; color: var(--muted); }
+  }
+
+  .wishlist-prompt-actions {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+
+    .btn { width: 100%; justify-content: center; }
+  }
+}
+
 // ── GAME PAGE ──
 #canvas {
   position: absolute;
