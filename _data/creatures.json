@@ -300,6 +300,26 @@
 		"artPath": "creature/creatures/anticipation/anticipation-3-art-front.png"
 	},
 	{
+		"number": 16,
+		"name": "Miaudo",
+		"description": "Se assusta facilmente com sons e movimentos inesperados. Arqueia o corpo e solta um miado agudo sempre que algo parece perigoso.",
+		"type1Pt": "Medo",
+		"type2Pt": null,
+		"type1": "ME",
+		"type2": null,
+		"emotion": "fear",
+		"emotionPt": "Medo",
+		"stage": "1",
+		"energy": 30.331753554502,
+		"attack": 68.751974723539,
+		"defense": 33.364928909953,
+		"speed": 80.88467614534,
+		"weaknesses": [ "NO", "EX" ],
+		"weaknessesPt": [ "Nojo", "Expectativa" ],
+		"complexTypeName": "Medo",
+		"artPath": "creature/creatures/fear/fear-1-art-front.png"
+	},
+	{
 		"number": 19,
 		"name": "Nojoriço",
 		"description": "Sempre alerta ao que parece sujo ou estragado. Levanta seus pequenos espinhos para manter distância do que considera nocivo.",
