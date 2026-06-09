@@ -320,6 +320,26 @@
 		"artPath": "creature/creatures/fear/fear-1-art-front.png"
 	},
 	{
+		"number": 17,
+		"name": "Tremiau",
+		"description": "",
+		"type1Pt": "Medo",
+		"type2Pt": null,
+		"type1": "ME",
+		"type2": null,
+		"emotion": "fear",
+		"emotionPt": "Medo",
+		"stage": "2",
+		"energy": 43.956043956044,
+		"attack": 81.074481074481,
+		"defense": 48.840048840049,
+		"speed": 92.796092796093,
+		"weaknesses": [ "NO", "EX" ],
+		"weaknessesPt": [ "Nojo", "Expectativa" ],
+		"complexTypeName": "Medo",
+		"artPath": "creature/creatures/fear/fear-2-art-front.png"
+	},
+	{
 		"number": 19,
 		"name": "Nojoriço",
 		"description": "Sempre alerta ao que parece sujo ou estragado. Levanta seus pequenos espinhos para manter distância do que considera nocivo.",
