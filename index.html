@@ -281,19 +281,10 @@ description: "Emocre é um jogo de plataforma e batalhas por turnos onde você i
 <script src="https://unpkg.com/nostalgist"></script>
 <script src="https://unpkg.com/nipplejs@0.10.2/dist/nipplejs.js"></script>
 <script>
+const CREATURES = {{ creatures | jsonify }};
+
 (function() {
-  const allImgs = [
-    'joy-1','joy-2','joy-3',
-    'anger-1','anger-2','anger-3',
-    'sadness-1','sadness-2','sadness-3',
-    'trust-1','trust-2','trust-3',
-    'anticipation-1','anticipation-2','anticipation-3',
-    'disgust-1','disgust-2','disgust-3',
-    'surprise-1','surprise-2',
-    'shame-1','shame-2',
-    'remorse-1','remorse-2',
-    'outrage-1','outrage-2'
-  ];
+  const allImgs = CREATURES.map(c => `${c.emotion}-${c.stage}`);
   const grid = document.getElementById('heroBgGrid');
   const hero = document.querySelector('.hero');
   const tileSize = 100;
@@ -330,8 +321,6 @@ description: "Emocre é um jogo de plataforma e batalhas por turnos onde você i
   fill();
   window.addEventListener('resize', fill);
 })();
-
-const CREATURES = {{ creatures | jsonify }};
 
 const TYPE_COLORS = {
   AL: '#a8d87f', RA: '#ff7070', TR: '#5ac8e8', CO: '#f096c8',
