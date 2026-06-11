@@ -862,6 +862,52 @@ footer {
   @media (max-width: 600px) { padding: 24px 20px; }
 }
 
+// ── GAME LOADING ──
+#gameLoading {
+  display: none;
+  position: fixed;
+  inset: 0;
+  z-index: 10003;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  background: #000;
+
+  img {
+    width: min(60vw, 280px);
+    animation: loading-pulse 1.4s ease-in-out infinite;
+  }
+
+  .game-loading-text {
+    margin: 0;
+    font-family: var(--font-game);
+    font-size: 14px;
+    letter-spacing: 2px;
+    color: #fff;
+
+    &::after {
+      content: '';
+      display: inline-block;
+      width: 3ch;
+      text-align: left;
+      animation: loading-dots 1.2s infinite;
+    }
+  }
+}
+
+@keyframes loading-pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.55; }
+}
+
+@keyframes loading-dots {
+  0%   { content: ''; }
+  25%  { content: '.'; }
+  50%  { content: '..'; }
+  75%  { content: '...'; }
+}
+
 // ── GAME CLOSE BUTTON ──
 #gameCloseBtn {
   display: none;
