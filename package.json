@@ -14,7 +14,6 @@
     "url": "https://github.com/afonsof/emocre-site/issues"
   },
   "homepage": "https://github.com/afonsof/emocre-site#readme",
-  "type": "module",
   "packageManager": "yarn@4.9.2",
   "workspaces": [
     "vendor/emocre-tools"

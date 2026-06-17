@@ -15,7 +15,7 @@ import:
 	IMPORT_DATA_DIR="$(PWD)/data" IMPORT_ENV_PATH="$(PWD)/.env" IMPORT_PRESSKIT_PATH="$(PWD)/press-kit.md" yarn workspace @emocre/tools import
 
 transpile:
-	yarn ts-node tools/transpile.ts
+	node -r ts-node/register tools/transpile.ts
 
 build:
 	yarn build
