@@ -322,7 +322,7 @@
 	{
 		"number": 17,
 		"name": "Tremiau",
-		"description": "",
+		"description": "Reage de forma exagerada a qualquer ruído. Quando se assusta, se esconde em lugares muito pequenos, mesmo quando não cabe neles.",
 		"type1Pt": "Medo",
 		"type2Pt": null,
 		"type1": "ME",
