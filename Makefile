@@ -1,14 +1,24 @@
 .PHONY: vendor import transpile build
 
-vendor: vendor/emocre-tools vendor/emocre-creatures
+install: install/tools install/creatures
 	yarn install
 
-vendor/emocre-tools:
-	git clone https://github.com/afonsof/emocre-tools.git vendor/emocre-tools
+install/tools:
+	@if [ ! -d vendor/emocre-tools/.git ]; then \
+		git clone https://github.com/afonsof/emocre-tools.git vendor/emocre-tools; \
+	else \
+		echo "vendor/emocre-tools already cloned, pulling latest"; \
+		git -C vendor/emocre-tools pull --ff-only; \
+	fi
 	rm -f vendor/emocre-tools/.yarnrc.yml vendor/emocre-tools/yarn.lock
 
-vendor/emocre-creatures:
-	git clone --filter=blob:none --sparse git@github.com:afonsof/emocre-creatures.git vendor/emocre-creatures
+install/creatures:
+	@if [ ! -d vendor/emocre-creatures/.git ]; then \
+		git clone --filter=blob:none --sparse git@github.com:afonsof/emocre-creatures.git vendor/emocre-creatures; \
+	else \
+		echo "vendor/emocre-creatures already cloned, pulling latest"; \
+		git -C vendor/emocre-creatures pull --ff-only; \
+	fi
 	cd vendor/emocre-creatures && git sparse-checkout set art
 
 import:
@@ -19,3 +29,6 @@ transpile:
 
 build:
 	yarn build
+
+start: install import transpile
+	yarn start
