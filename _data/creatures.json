@@ -340,6 +340,26 @@
 		"artPath": "creature/creatures/fear/fear-2-art-front.png"
 	},
 	{
+		"number": 18,
+		"name": "Gaterror",
+		"description": "Sua presença imponente causa terror em muitas criaturas. Ironicamente, passa grande parte do tempo imaginando ameaças inexistentes e se assusta até com a própria sombra.",
+		"type1Pt": "Medo",
+		"type2Pt": null,
+		"type1": "ME",
+		"type2": null,
+		"emotion": "fear",
+		"emotionPt": "Medo",
+		"stage": "3",
+		"energy": 63.095238095238,
+		"attack": 103.055555555555,
+		"defense": 71.507936507936,
+		"speed": 115.674603174603,
+		"weaknesses": [ "NO", "EX" ],
+		"weaknessesPt": [ "Nojo", "Expectativa" ],
+		"complexTypeName": "Medo",
+		"artPath": "creature/creatures/fear/fear-3-art-front.png"
+	},
+	{
 		"number": 19,
 		"name": "Nojoriço",
 		"description": "Sempre alerta ao que parece sujo ou estragado. Levanta seus pequenos espinhos para manter distância do que considera nocivo.",
