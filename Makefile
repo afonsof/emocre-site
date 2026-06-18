@@ -13,13 +13,13 @@ install/tools:
 	rm -f vendor/emocre-tools/.yarnrc.yml vendor/emocre-tools/yarn.lock
 
 install/creatures:
-	@if [ ! -d vendor/emocre-creatures/.git ]; then \
-		git clone --filter=blob:none --sparse git@github.com:afonsof/emocre-creatures.git vendor/emocre-creatures; \
+	@if [ ! -d vendor/emocre-art/.git ]; then \
+		git clone --filter=blob:none --sparse git@github.com:afonsof/emocre-art.git vendor/emocre-art; \
 	else \
-		echo "vendor/emocre-creatures already cloned, pulling latest"; \
-		git -C vendor/emocre-creatures pull --ff-only; \
+		echo "vendor/emocre-art already cloned, pulling latest"; \
+		git -C vendor/emocre-art pull --ff-only; \
 	fi
-	cd vendor/emocre-creatures && git sparse-checkout set art
+	cd vendor/emocre-art && git sparse-checkout set art
 
 import:
 	IMPORT_DATA_DIR="$(PWD)/data" IMPORT_ENV_PATH="$(PWD)/.env" IMPORT_PRESSKIT_PATH="$(PWD)/press-kit.md" yarn workspace @emocre/tools import

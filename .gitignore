@@ -2,6 +2,6 @@ _site/
 node_modules/
 .yarn/
 /vendor/emocre-tools
-/vendor/emocre-creatures
+/vendor/emocre-art
 /data
 .env
