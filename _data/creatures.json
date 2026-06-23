@@ -180,26 +180,6 @@
 		"artPath": "creature/creatures/sadness/sadness-3-art-front.png"
 	},
 	{
-		"number": 10,
-		"name": "Firmiga",
-		"description": "De postura ereta e olhar inabalável, finca sua bandeira no solo sem hesitar. Mesmo sozinha, sua confiança é contagiante; ela não precisa ver seus aliados para saber que eles virão.",
-		"type1Pt": "Confiança",
-		"type2Pt": null,
-		"type1": "CO",
-		"type2": null,
-		"emotion": "trust",
-		"emotionPt": "Confiança",
-		"stage": "1",
-		"energy": 121.904761904762,
-		"attack": 12.190476190476,
-		"defense": 42.666666666667,
-		"speed": 36.571428571429,
-		"weaknesses": [ "TR", "RA" ],
-		"weaknessesPt": [ "Tristeza", "Raiva" ],
-		"complexTypeName": "Confiança",
-		"artPath": "creature/creatures/trust/trust-1-art-front.png"
-	},
-	{
 		"number": 11,
 		"name": "Configa",
 		"description": "A certeza da primeira atraiu a segunda. Agora em dupla, seguram o mastro da bandeira com vigor redobrado, trocando olhares de cumplicidade que afastam qualquer dúvida. Sabem que a união validou sua fé.",
@@ -558,6 +538,26 @@
 		"weaknessesPt": [ "Tristeza", "Expectativa" ],
 		"complexTypeName": "Culpa",
 		"artPath": "creature/creatures/guilt/guilt-2-art-front.png"
+	},
+	{
+		"number": 51,
+		"name": "Capivibe",
+		"description": "",
+		"type1Pt": "Alegria",
+		"type2Pt": "Surpresa",
+		"type1": "AL",
+		"type2": "SU",
+		"emotion": "delight",
+		"emotionPt": "Encantamento",
+		"stage": "1",
+		"energy": 0,
+		"attack": 0,
+		"defense": 0,
+		"speed": 0,
+		"weaknesses": [ "ME", "SU", "EX" ],
+		"weaknessesPt": [ "Medo", "Surpresa", "Expectativa" ],
+		"complexTypeName": "Encantamento",
+		"artPath": "creature/creatures/delight/delight-1-art-front.png"
 	},
 	{
 		"number": 77,
