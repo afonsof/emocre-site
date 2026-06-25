@@ -1,9 +1,9 @@
-import {readObjectFromFile} from '@emocre/tools/src/file/config-file'
+
 import {dataPath, siteAssetsPath, siteDataPath, creaturesDir, artBase} from './paths'
 import {emotionEnToPt} from '@emocre/tools/src/schema/emotion'
 import fs from 'fs'
 import {writeJson} from '@emocre/tools/src/file/serialize'
-import {effectivenessTextToNumber} from '@emocre/tools/src/type/type'
+
 import {CreaturesFileRepository} from '@emocre/tools/src/creature/creatures-file-repository'
 
 (async () => {
@@ -17,31 +17,6 @@ import {CreaturesFileRepository} from '@emocre/tools/src/creature/creatures-file
     return `${siteAssetsPath}/creatures/${emotion}-${stage}-art-front.png`
   }
 
-  const typeChart = await readObjectFromFile<{
-    effectiveness: { target: string, source: string, factor: string }[],
-    types: { name_en: string, name_pt: string, key: string }[]
-  }>(dataPath('type/types.yml'))
-  const typeIndexMap: Record<string, number> = {}
-  typeChart.types.forEach((type, index) => {
-    typeIndexMap[type.key] = index
-  })
-  const allTypes = typeChart.types.map(t => t.key)
-
-  function getWeaknesses(type1: string, type2?: string): string[] {
-    const weaknesses: string[] = []
-    allTypes.forEach(attackingType => {
-      const multiplier1 = effectivenessTextToNumber(typeChart.effectiveness.find(e => e.source == attackingType && e.target == type1)!.factor)
-      let multiplier2 = 1
-      if (type2) {
-        multiplier2 = effectivenessTextToNumber(typeChart.effectiveness.find(e => e.source == attackingType && e.target == type2)!.factor)
-      }
-      const totalMultiplier = multiplier1 * multiplier2
-      if (totalMultiplier > 1) {
-        weaknesses.push(attackingType)
-      }
-    })
-    return weaknesses
-  }
 
   const out = await Promise.all(creatures
     .map(async (c) => {
@@ -60,8 +35,7 @@ import {CreaturesFileRepository} from '@emocre/tools/src/creature/creatures-file
         attack: c.power,
         defense: c.defense,
         speed: c.speed,
-        weaknesses: getWeaknesses(c.type_1, c.type_2),
-        weaknessesPt: await Promise.all(getWeaknesses(c.type_1, c.type_2).map(async t => emotionEnToPt(t, dataPath('type/types.yml')))),
+
         complexTypeName: c.complexTypeName,
         artPath: c.artFrontPath,
       }
