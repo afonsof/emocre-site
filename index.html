@@ -117,10 +117,7 @@ description: "Emocre é um jogo de plataforma e batalhas por turnos onde você i
           <span class="modal-meta-label">Tipo</span>
           <div class="creature-types" id="modalTypes"></div>
         </div>
-        <div class="modal-meta-block">
-          <span class="modal-meta-label">Fraquezas</span>
-          <div class="creature-types" id="modalWeaknesses"></div>
-        </div>
+
       </div>
       <div class="modal-right">
         <div class="modal-title">
@@ -380,8 +377,6 @@ function openModal(c) {
   const types = document.getElementById('modalTypes');
   types.innerHTML = `<span class="type-badge type-${c.type1}">${c.type1Pt}</span>${c.type2 ? `<span class="type-badge type-${c.type2}">${c.type2Pt}</span>` : ''}`;
 
-  const weak = document.getElementById('modalWeaknesses');
-  weak.innerHTML = (c.weaknesses || []).map((w,i) => `<span class="type-badge type-${w}">${c.weaknessesPt[i]}</span>`).join('');
 
 
   const hp  = Math.round(c.energy);
