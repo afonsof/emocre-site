@@ -14,8 +14,6 @@
 		"attack": 59.607843137255,
 		"defense": 59.607843137255,
 		"speed": 47.058823529412,
-		"weaknesses": [ "SU", "TR" ],
-		"weaknessesPt": [ "Surpresa", "Tristeza" ],
 		"complexTypeName": "Alegria",
 		"artPath": "creature/creatures/joy/joy-1-art-front.png"
 	},
@@ -34,8 +32,6 @@
 		"attack": 66.902237926973,
 		"defense": 67.844522968198,
 		"speed": 65.959952885748,
-		"weaknesses": [ "SU", "TR" ],
-		"weaknessesPt": [ "Surpresa", "Tristeza" ],
 		"complexTypeName": "Alegria",
 		"artPath": "creature/creatures/joy/joy-2-art-front.png"
 	},
@@ -54,8 +50,6 @@
 		"attack": 88.576675849403,
 		"defense": 89.550045913682,
 		"speed": 87.603305785124,
-		"weaknesses": [ "SU", "TR" ],
-		"weaknessesPt": [ "Surpresa", "Tristeza" ],
 		"complexTypeName": "Alegria",
 		"artPath": "creature/creatures/joy/joy-3-art-front.png"
 	},
@@ -74,8 +68,6 @@
 		"attack": 57.713365539452,
 		"defense": 48.438003220612,
 		"speed": 66.988727858293,
-		"weaknesses": [ "AL", "ME" ],
-		"weaknessesPt": [ "Alegria", "Medo" ],
 		"complexTypeName": "Raiva",
 		"artPath": "creature/creatures/anger/anger-1-art-front.png"
 	},
@@ -94,8 +86,6 @@
 		"attack": 70.588235294118,
 		"defense": 60.78431372549,
 		"speed": 78.43137254902,
-		"weaknesses": [ "AL", "ME" ],
-		"weaknessesPt": [ "Alegria", "Medo" ],
 		"complexTypeName": "Raiva",
 		"artPath": "creature/creatures/anger/anger-2-art-front.png"
 	},
@@ -114,8 +104,6 @@
 		"attack": 96.003734827264,
 		"defense": 81.157796451914,
 		"speed": 98.972922502334,
-		"weaknesses": [ "AL", "ME" ],
-		"weaknessesPt": [ "Alegria", "Medo" ],
 		"complexTypeName": "Raiva",
 		"artPath": "creature/creatures/anger/anger-3-art-front.png"
 	},
@@ -134,8 +122,6 @@
 		"attack": 52.006633499171,
 		"defense": 68.988391376451,
 		"speed": 45.638474295191,
-		"weaknesses": [ "SU", "RA" ],
-		"weaknessesPt": [ "Surpresa", "Raiva" ],
 		"complexTypeName": "Tristeza",
 		"artPath": "creature/creatures/sadness/sadness-1-art-front.png"
 	},
@@ -154,8 +140,6 @@
 		"attack": 65.389527458493,
 		"defense": 81.736909323116,
 		"speed": 59.259259259259,
-		"weaknesses": [ "SU", "RA" ],
-		"weaknessesPt": [ "Surpresa", "Raiva" ],
 		"complexTypeName": "Tristeza",
 		"artPath": "creature/creatures/sadness/sadness-2-art-front.png"
 	},
@@ -174,8 +158,6 @@
 		"attack": 86.279069767442,
 		"defense": 105.794573643411,
 		"speed": 80.116279069767,
-		"weaknesses": [ "SU", "RA" ],
-		"weaknessesPt": [ "Surpresa", "Raiva" ],
 		"complexTypeName": "Tristeza",
 		"artPath": "creature/creatures/sadness/sadness-3-art-front.png"
 	},
@@ -194,8 +176,6 @@
 		"attack": 12.190476190476,
 		"defense": 42.666666666667,
 		"speed": 36.571428571429,
-		"weaknesses": [ "TR", "RA" ],
-		"weaknessesPt": [ "Tristeza", "Raiva" ],
 		"complexTypeName": "Confiança",
 		"artPath": "creature/creatures/trust/trust-1-art-front.png"
 	},
@@ -214,8 +194,6 @@
 		"attack": 14.222222222222,
 		"defense": 39.111111111111,
 		"speed": 35.555555555556,
-		"weaknesses": [ "TR", "RA" ],
-		"weaknessesPt": [ "Tristeza", "Raiva" ],
 		"complexTypeName": "Confiança",
 		"artPath": "creature/creatures/trust/trust-2-art-front.png"
 	},
@@ -234,8 +212,6 @@
 		"attack": 35.66510172144,
 		"defense": 60.547730829421,
 		"speed": 45.618153364632,
-		"weaknesses": [ "TR", "RA" ],
-		"weaknessesPt": [ "Tristeza", "Raiva" ],
 		"complexTypeName": "Confiança",
 		"artPath": "creature/creatures/trust/trust-3-art-front.png"
 	},
@@ -254,8 +230,6 @@
 		"attack": 62.040816326531,
 		"defense": 52.244897959184,
 		"speed": 54.421768707483,
-		"weaknesses": [ "CO", "NO" ],
-		"weaknessesPt": [ "Confiança", "Nojo" ],
 		"complexTypeName": "Expectativa",
 		"artPath": "creature/creatures/anticipation/anticipation-1-art-front.png"
 	},
@@ -274,8 +248,6 @@
 		"attack": 74.396135265701,
 		"defense": 65.700483091788,
 		"speed": 67.632850241546,
-		"weaknesses": [ "CO", "NO" ],
-		"weaknessesPt": [ "Confiança", "Nojo" ],
 		"complexTypeName": "Expectativa",
 		"artPath": "creature/creatures/anticipation/anticipation-2-art-front.png"
 	},
@@ -294,8 +266,6 @@
 		"attack": 107.098445595855,
 		"defense": 89.706390328152,
 		"speed": 73.229706390328,
-		"weaknesses": [ "CO", "NO" ],
-		"weaknessesPt": [ "Confiança", "Nojo" ],
 		"complexTypeName": "Expectativa",
 		"artPath": "creature/creatures/anticipation/anticipation-3-art-front.png"
 	},
@@ -314,8 +284,6 @@
 		"attack": 68.751974723539,
 		"defense": 33.364928909953,
 		"speed": 80.88467614534,
-		"weaknesses": [ "NO", "EX" ],
-		"weaknessesPt": [ "Nojo", "Expectativa" ],
 		"complexTypeName": "Medo",
 		"artPath": "creature/creatures/fear/fear-1-art-front.png"
 	},
@@ -334,8 +302,6 @@
 		"attack": 81.074481074481,
 		"defense": 48.840048840049,
 		"speed": 92.796092796093,
-		"weaknesses": [ "NO", "EX" ],
-		"weaknessesPt": [ "Nojo", "Expectativa" ],
 		"complexTypeName": "Medo",
 		"artPath": "creature/creatures/fear/fear-2-art-front.png"
 	},
@@ -354,8 +320,6 @@
 		"attack": 103.055555555555,
 		"defense": 71.507936507936,
 		"speed": 115.674603174603,
-		"weaknesses": [ "NO", "EX" ],
-		"weaknessesPt": [ "Nojo", "Expectativa" ],
 		"complexTypeName": "Medo",
 		"artPath": "creature/creatures/fear/fear-3-art-front.png"
 	},
@@ -374,8 +338,6 @@
 		"attack": 67.878787878788,
 		"defense": 64.646464646465,
 		"speed": 32.323232323232,
-		"weaknesses": [ "AL", "CO" ],
-		"weaknessesPt": [ "Alegria", "Confiança" ],
 		"complexTypeName": "Nojo",
 		"artPath": "creature/creatures/disgust/disgust-1-art-front.png"
 	},
@@ -394,8 +356,6 @@
 		"attack": 80.645161290323,
 		"defense": 78.494623655914,
 		"speed": 43.010752688172,
-		"weaknesses": [ "AL", "CO" ],
-		"weaknessesPt": [ "Alegria", "Confiança" ],
 		"complexTypeName": "Nojo",
 		"artPath": "creature/creatures/disgust/disgust-2-art-front.png"
 	},
@@ -414,8 +374,6 @@
 		"attack": 108.982683982684,
 		"defense": 100.952380952381,
 		"speed": 57.359307359307,
-		"weaknesses": [ "AL", "CO" ],
-		"weaknessesPt": [ "Alegria", "Confiança" ],
 		"complexTypeName": "Nojo",
 		"artPath": "creature/creatures/disgust/disgust-3-art-front.png"
 	},
@@ -434,8 +392,6 @@
 		"attack": 49.04214559387,
 		"defense": 46.590038314176,
 		"speed": 68.659003831418,
-		"weaknesses": [ "ME", "EX" ],
-		"weaknessesPt": [ "Medo", "Expectativa" ],
 		"complexTypeName": "Surpresa",
 		"artPath": "creature/creatures/surprise/surprise-1-art-front.png"
 	},
@@ -454,8 +410,6 @@
 		"attack": 60.606060606061,
 		"defense": 58.402203856749,
 		"speed": 78.236914600551,
-		"weaknesses": [ "ME", "EX" ],
-		"weaknessesPt": [ "Medo", "Expectativa" ],
 		"complexTypeName": "Surpresa",
 		"artPath": "creature/creatures/surprise/surprise-2-art-front.png"
 	},
@@ -474,8 +428,6 @@
 		"attack": 79.819277108434,
 		"defense": 77.690763052209,
 		"speed": 107.489959839357,
-		"weaknesses": [ "ME", "EX" ],
-		"weaknessesPt": [ "Medo", "Expectativa" ],
 		"complexTypeName": "Surpresa",
 		"artPath": "creature/creatures/surprise/surprise-3-art-front.png"
 	},
@@ -494,8 +446,6 @@
 		"attack": 41.864139020537,
 		"defense": 41.864139020537,
 		"speed": 11.848341232228,
-		"weaknesses": [ "ME", "EX" ],
-		"weaknessesPt": [ "Medo", "Expectativa" ],
 		"complexTypeName": "Distração",
 		"artPath": "creature/creatures/distraction/distraction-1-art-front.png"
 	},
@@ -514,8 +464,6 @@
 		"attack": 81.904761904762,
 		"defense": 88.419913419914,
 		"speed": 27.922077922078,
-		"weaknesses": [ "ME", "EX" ],
-		"weaknessesPt": [ "Medo", "Expectativa" ],
 		"complexTypeName": "Distração",
 		"artPath": "creature/creatures/distraction/distraction-2-art-front.png"
 	},
@@ -534,8 +482,6 @@
 		"attack": 47.194304857621,
 		"defense": 54.170854271357,
 		"speed": 39.396984924623,
-		"weaknesses": [ "TR", "EX" ],
-		"weaknessesPt": [ "Tristeza", "Expectativa" ],
 		"complexTypeName": "Culpa",
 		"artPath": "creature/creatures/guilt/guilt-1-art-front.png"
 	},
@@ -554,15 +500,13 @@
 		"attack": 82.830820770519,
 		"defense": 95.075376884422,
 		"speed": 69.145728643216,
-		"weaknesses": [ "TR", "EX" ],
-		"weaknessesPt": [ "Tristeza", "Expectativa" ],
 		"complexTypeName": "Culpa",
 		"artPath": "creature/creatures/guilt/guilt-2-art-front.png"
 	},
 	{
 		"number": 51,
 		"name": "Capivibe",
-		"description": "",
+		"description": "Vive imóvel na beira dos lagos apenas vivendo o presente. Toda nova alegria inesperada faz nascer uma folha em seu dorso.",
 		"type1Pt": "Alegria",
 		"type2Pt": "Surpresa",
 		"type1": "AL",
@@ -574,10 +518,26 @@
 		"attack": 0,
 		"defense": 0,
 		"speed": 0,
-		"weaknesses": [ "ME", "SU", "EX" ],
-		"weaknessesPt": [ "Medo", "Surpresa", "Expectativa" ],
 		"complexTypeName": "Encantamento",
 		"artPath": "creature/creatures/delight/delight-1-art-front.png"
+	},
+	{
+		"number": 52,
+		"name": "Capincanta",
+		"description": "As folhas em seu dorso representam a alegria que a pegou de surpresa. Onde para, contagia os outros com aquele deslumbre de quem não esperava tanto.",
+		"type1Pt": "Alegria",
+		"type2Pt": "Surpresa",
+		"type1": "AL",
+		"type2": "SU",
+		"emotion": "delight",
+		"emotionPt": "Encantamento",
+		"stage": "2",
+		"energy": 0,
+		"attack": 0,
+		"defense": 0,
+		"speed": 0,
+		"complexTypeName": "Encantamento",
+		"artPath": "creature/creatures/delight/delight-2-art-front.png"
 	},
 	{
 		"number": 77,
@@ -594,8 +554,6 @@
 		"attack": 26.041666666667,
 		"defense": 42.708333333333,
 		"speed": 26.041666666667,
-		"weaknesses": [ "AL", "CO", "NO" ],
-		"weaknessesPt": [ "Alegria", "Confiança", "Nojo" ],
 		"complexTypeName": "Vergonha",
 		"artPath": "creature/creatures/shame/shame-1-art-front.png"
 	},
@@ -614,8 +572,6 @@
 		"attack": 70.975918884664,
 		"defense": 51.71102661597,
 		"speed": 65.906210392903,
-		"weaknesses": [ "AL", "CO", "NO" ],
-		"weaknessesPt": [ "Alegria", "Confiança", "Nojo" ],
 		"complexTypeName": "Vergonha",
 		"artPath": "creature/creatures/shame/shame-2-art-front.png"
 	},
@@ -634,8 +590,6 @@
 		"attack": 37.037037037037,
 		"defense": 37.037037037037,
 		"speed": 53.606237816764,
-		"weaknesses": [ "SU", "RA" ],
-		"weaknessesPt": [ "Surpresa", "Raiva" ],
 		"complexTypeName": "Remorso",
 		"artPath": "creature/creatures/remorse/remorse-1-art-front.png"
 	},
@@ -654,8 +608,6 @@
 		"attack": 58.994640943194,
 		"defense": 58.994640943194,
 		"speed": 72.733118971061,
-		"weaknesses": [ "SU", "RA" ],
-		"weaknessesPt": [ "Surpresa", "Raiva" ],
 		"complexTypeName": "Remorso",
 		"artPath": "creature/creatures/remorse/remorse-2-art-front.png"
 	},
@@ -674,8 +626,6 @@
 		"attack": 50.340136054422,
 		"defense": 40.136054421769,
 		"speed": 40.816326530612,
-		"weaknesses": [ "ME", "EX" ],
-		"weaknessesPt": [ "Medo", "Expectativa" ],
 		"complexTypeName": "Indignação",
 		"artPath": "creature/creatures/outrage/outrage-1-art-front.png"
 	},
@@ -694,8 +644,6 @@
 		"attack": 108.415094339623,
 		"defense": 94.59748427673,
 		"speed": 69.088050314465,
-		"weaknesses": [ "ME", "EX" ],
-		"weaknessesPt": [ "Medo", "Expectativa" ],
 		"complexTypeName": "Indignação",
 		"artPath": "creature/creatures/outrage/outrage-2-art-front.png"
 	}
