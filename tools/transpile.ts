@@ -1,8 +1,6 @@
 import {readObjectFromFile} from '@emocre/tools/src/file/config-file'
 import {dataPath, siteAssetsPath, siteDataPath, creaturesDir, artBase} from './paths'
 import {emotionEnToPt} from '@emocre/tools/src/schema/emotion'
-import {ImageProcessor, buffersToGif} from '@emocre/tools/src/image'
-import {asepriteToPngStrip} from '@emocre/tools/src/client/run-aseprite'
 import fs from 'fs'
 import {writeJson} from '@emocre/tools/src/file/serialize'
 import {effectivenessTextToNumber} from '@emocre/tools/src/type/type'
@@ -69,35 +67,13 @@ import {CreaturesFileRepository} from '@emocre/tools/src/creature/creatures-file
       }
     }))
 
-  try {
-    await Promise.all(creatures.map(async (c) => {
-      const destinationFile = destinationCreatureImagePath(c.emotion.toLowerCase(), c.stage)
-      const artPath = c.artFrontPathAbs.find(p => p.endsWith('.png')) as string
-      if (fs.existsSync(artPath)) {
-        const buffer = fs.readFileSync(artPath)
-        const imageBuffer = await ImageProcessor.crtFilterFacade(buffer)
-        fs.writeFileSync(destinationFile, imageBuffer)
-      } else {
-        const asepriteArtPath = artPath.replace('.png', '.ase')
-        if (fs.existsSync(asepriteArtPath)) {
-          const buffers = await asepriteToPngStrip(asepriteArtPath)
-          const crtBuffers = await Promise.all(buffers
-            .map(b => ImageProcessor.crtFilterFacade(b)),
-          )
-          const gifBuffer = await buffersToGif(crtBuffers, {
-            delay: 150,
-            repeat: 0,
-            quality: 10,
-          })
-          fs.writeFileSync(destinationFile, gifBuffer)
-        } else {
-          throw new Error(`Arquivo de arte não encontrado: ${artPath} ou ${asepriteArtPath}`)
-        }
-      }
-    }))
-  } catch (e) {
-    console.error('Erro ao processar imagens:', e)
-  }
+  await Promise.all(creatures.map(async (c) => {
+    const destinationFile = destinationCreatureImagePath(c.emotion.toLowerCase(), c.stage)
+    if (!fs.existsSync(c.crtArtPathAbs)) {
+      throw new Error(`CRT sprite not found (run emocre-art \`make sprites\` then re-vendor): ${c.crtArtPathAbs}`)
+    }
+    await fs.promises.copyFile(c.crtArtPathAbs, destinationFile)
+  }))
   const outPath = `${siteDataPath}/creatures.json`
   await writeJson(outPath, out)
 })()
